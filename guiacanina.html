@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="GuíaCanina - Tu referencia completa para el cuidado de tu perro. Información detallada sobre 21 razas, salud, alimentación y cuidados. Recomendaciones BotaniCan Shampoo.">
+    <meta name="keywords" content="guía canina, cuidado perros, razas de perros, salud canina, BotaniCan, shampoo para perros, chihuahua, xoloitzcuintle">
+    <meta name="theme-color" content="#2D5016">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    
+    <title>GuíaCanina - Tu referencia completa para el cuidado de tu perro</title>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="manifest.json">
+    
+    <!-- Icons -->
+    <link rel="icon" type="image/png" sizes="192x192" href="icon-192.png">
+    <link rel="apple-touch-icon" href="icon-192.png">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="guiacanina-styles.css">
+    
+    <!-- Preload -->
+    <link rel="preload" as="script" href="guiacanina-data.js">
+</head>
+<body>
+    <!-- PWA Install Banner -->
+    <div id="installBanner" class="install-banner hidden">
+        <div class="install-content">
+            <span class="install-icon">🐕</span>
+            <div class="install-text">
+                <strong>Instalar GuíaCanina</strong>
+                <small>Acceso rápido desde tu pantalla de inicio</small>
+            </div>
+            <button id="installBtn" class="btn-install">Instalar</button>
+            <button id="closeBanner" class="btn-close">✕</button>
+        </div>
+    </div>
+
+    <!-- Main Container -->
+    <div id="app">
+        
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo-section">
+                    <span class="logo-icon">🐕</span>
+                    <div class="logo-text">
+                        <h1>GuíaCanina</h1>
+                        <p class="tagline">Tu referencia completa para el cuidado de tu perro</p>
+                    </div>
+                </div>
+                <button id="favoritesBtn" class="btn-favorites">
+                    <span class="fav-icon">❤️</span>
+                    <span class="fav-count">0</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- BotaniCan Banner (Top) -->
+        <div class="botanican-banner">
+            <div class="banner-content">
+                <div class="banner-icon">🧴</div>
+                <div class="banner-text">
+                    <strong>Shampoos BotaniCan</strong>
+                    <small>Cuidado natural para el pelaje de tu perro</small>
+                </div>
+                <a href="https://www.facebook.com/BotaniCanShampoo" target="_blank" class="btn-banner">Ver Productos</a>
+            </div>
+        </div>
+
+        <!-- Main View: Home -->
+        <main id="mainView" class="main-view">
+            
+            <!-- Search Section -->
+            <section class="search-section">
+                <div class="search-container">
+                    <input type="text" id="searchInput" class="search-input" placeholder="Buscar raza... (Ej: Chihuahua, Husky, Pastor Alemán)">
+                    <span class="search-icon">🔍</span>
+                </div>
+                
+                <!-- Filter Buttons -->
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">Todas</button>
+                    <button class="filter-btn" data-filter="mexicanas">🇲🇽 Mexicanas</button>
+                    <button class="filter-btn" data-filter="pequeñas">Pequeñas</button>
+                    <button class="filter-btn" data-filter="medianas">Medianas</button>
+                    <button class="filter-btn" data-filter="grandes">Grandes</button>
+                    <button class="filter-btn" data-filter="gigantes">Gigantes</button>
+                </div>
+            </section>
+
+            <!-- Breeds Grid -->
+            <section class="breeds-section">
+                <h2 class="section-title">Razas de Perros</h2>
+                <div id="breedsGrid" class="breeds-grid">
+                    <!-- Breeds will be loaded dynamically -->
+                </div>
+                <div id="noResults" class="no-results hidden">
+                    <span class="no-results-icon">🔍</span>
+                    <p>No se encontraron razas con ese criterio</p>
+                    <small>Intenta con otro término de búsqueda</small>
+                </div>
+            </section>
+
+            <!-- Favorites Section -->
+            <section id="favoritesSection" class="favorites-section hidden">
+                <div class="section-header">
+                    <h2 class="section-title">❤️ Mis Razas Favoritas</h2>
+                    <button id="closeFavorites" class="btn-close-section">Volver</button>
+                </div>
+                <div id="favoritesGrid" class="breeds-grid">
+                    <!-- Favorites will be loaded here -->
+                </div>
+                <div id="noFavorites" class="no-favorites">
+                    <span class="no-favorites-icon">❤️</span>
+                    <p>Aún no tienes razas favoritas</p>
+                    <small>Toca el ❤️ en cualquier raza para agregarla a favoritos</small>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Breed Detail View -->
+        <div id="breedDetailView" class="breed-detail-view hidden">
+            <div class="detail-header">
+                <button id="backBtn" class="btn-back">← Volver</button>
+                <button id="favoriteToggle" class="btn-favorite">❤️</button>
+            </div>
+            
+            <div id="breedDetailContent" class="detail-content">
+                <!-- Content will be loaded dynamically -->
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>© 2026 GuíaCanina - Una app de <a href="https://myappsmaster.com" target="_blank">MyAppsMaster</a></p>
+                <p class="footer-botanican">En colaboración con <a href="https://www.facebook.com/BotaniCanShampoo" target="_blank">BotaniCan Shampoo</a> 🧴</p>
+                <div class="footer-links">
+                    <a href="#" id="aboutLink">Acerca de</a>
+                    <span>•</span>
+                    <a href="https://www.facebook.com/BotaniCanShampoo" target="_blank">BotaniCan Facebook</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- About Modal -->
+    <div id="aboutModal" class="modal hidden">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Acerca de GuíaCanina</h2>
+                <button class="btn-close-modal">✕</button>
+            </div>
+            <div class="modal-body">
+                <p><strong>GuíaCanina</strong> es tu referencia completa para el cuidado profesional de tu perro.</p>
+                <p>Desarrollado en colaboración con <strong>BotaniCan Shampoo</strong>, ofrecemos información detallada sobre 60+ razas de perros, incluyendo:</p>
+                <ul>
+                    <li>🐕 Información de origen e historia</li>
+                    <li>🏥 Salud y problemas congénitos</li>
+                    <li>🍖 Alimentación y nutrición</li>
+                    <li>🛁 Cuidados de piel y pelaje</li>
+                    <li>⚠️ Alertas críticas de salud</li>
+                    <li>💡 Tips específicos por raza</li>
+                    <li>🦠 Responsabilidad y salud pública</li>
+                </ul>
+                <p class="modal-warning"><strong>⚠️ Importante:</strong> Esta aplicación es informativa. Siempre consulta con un veterinario certificado para el cuidado de tu mascota.</p>
+                <div class="modal-botanican">
+                    <h3>BotaniCan Shampoo</h3>
+                    <p>Recomendamos productos BotaniCan por su fórmula natural, pH balanceado y respeto por la piel sensible de los perros. No uses productos humanos o detergentes en tu mascota.</p>
+                    <a href="https://www.facebook.com/BotaniCanShampoo" target="_blank" class="btn-primary">Visitar BotaniCan</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Indicator -->
+    <div id="loading" class="loading hidden">
+        <div class="spinner"></div>
+        <p>Cargando...</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="guiacanina-data.js"></script>
+    <script src="guiacanina-app.js"></script>
+    
+    <!-- Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(reg => console.log('Service Worker registered'))
+                    .catch(err => console.log('Service Worker registration failed'));
+            });
+        }
+    </script>
+
+</body>
+</html>
