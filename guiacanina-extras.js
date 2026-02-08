@@ -106,7 +106,7 @@ function renderEsteticas() {
     return `
         <div class="esteticas-view">
             <div class="esteticas-header">
-                <h2>💇 Estéticas Caninas Recomendadas</h2>
+                <h2>🐕 Estéticas Caninas Recomendadas</h2>
                 <p>Estéticas que usan Productos BotaniCan</p>
             </div>
             
@@ -201,7 +201,7 @@ async function compartirEstetica(nombre) {
     const est = ESTETICAS_CANINAS.find(e => e.nombre === nombre);
     if (!est) return;
     
-    const texto = `💇 *Estética Canina Recomendada*
+    const texto = `🐕 *Estética Canina Recomendada*
 
 🏪 ${est.nombre}
 📍 ${est.colonia}, ${est.ciudad}
