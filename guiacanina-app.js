@@ -997,7 +997,7 @@ function closeAbout() {
 // ============================================
 
 async function compartirApp() {
-    const texto = '🐕 *GuíaCanina* - Tu referencia completa para el cuidado de tu perro\n\n✅ 22 razas con información detallada\n✅ Recomendaciones BotaniCan Shampoo\n✅ Guía de productos por raza\n✅ Directorio de estéticas caninas\n\n📱 Descarga GRATIS:\nhttps://guiacanina.vercel.app';
+    const texto = '🐕 *GuíaCanina* - Tu referencia completa para el cuidado de tu perro\n\n✅ 23 razas con información detallada\n✅ Recomendaciones BotaniCan Shampoo\n✅ Guía de productos por raza\n✅ Directorio de estéticas caninas\n\n📱 Descarga GRATIS:\nhttps://guiacanina.vercel.app';
 
     try {
         if (navigator.share) {
