@@ -1,6 +1,6 @@
 /**
  * GUÍACANINA - BASE DE DATOS DE RAZAS
- * Información completa sobre 21 razas de perros
+ * Información completa sobre 23 razas de perros
  * Incluye: Origen, temperamento, salud, alimentación, cuidados, BotaniCan, salud pública
  */
 
