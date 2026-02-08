@@ -667,9 +667,11 @@ body {
 }
 
 .alert-warning {
-    background: rgba(234, 179, 8, 0.1);
-    border-color: var(--color-warning);
-    color: var(--yellow);
+    background: rgba(234, 179, 8, 0.15);
+    border: 2px solid var(--yellow);
+    border-radius: var(--radius-sm);
+    color: var(--text);
+    padding: 1rem;
 }
 
 .alert-info {
