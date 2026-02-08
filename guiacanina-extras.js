@@ -1,37 +1,62 @@
 // ============================================
-// ESTETICAS CANINAS Y GUÍA DE SHAMPOOS
+// ESTETICAS CANINAS VERIFICADAS - CLIENTES REALES
 // ============================================
 
 const ESTETICAS_CANINAS = [
     {
-        nombre: "Spa Canino Coyoacán",
-        ciudad: "Ciudad de México",
-        colonia: "Coyoacán",
-        servicios: ["Baño", "Corte", "Uñas", "Productos BotaniCan"],
-        whatsapp: "5535104900",
-        ubicacion: "https://maps.google.com/?q=19.350,-99.162",
+        nombre: "Sandra Goretti Hernández Martínez",
+        ciudad: "México",
+        colonia: "Ocotlán, Jalisco",
+        servicios: ["Baño profesional", "Corte especializado", "Productos BotaniCan"],
+        whatsapp: "3921575989",
+        ubicacion: "https://maps.google.com/?q=Ocotlán+Jalisco",
         usaBotaniCan: true,
-        verificado: true
+        verificado: true,
+        pedidosHistoricos: 27
     },
     {
-        nombre: "Pet Grooming Santa Fe",
-        ciudad: "Ciudad de México",
-        colonia: "Santa Fe",
-        servicios: ["Spa completo", "BotaniCan", "Corte raza"],
-        whatsapp: "5535104900",
-        ubicacion: "https://maps.google.com/?q=19.360,-99.260",
+        nombre: "Ana Lopez",
+        ciudad: "México",
+        colonia: "Saltillo, Coahuila",
+        servicios: ["Spa canino", "Grooming profesional", "Productos BotaniCan"],
+        whatsapp: "8441067250",
+        ubicacion: "https://maps.google.com/?q=Saltillo+Coahuila",
         usaBotaniCan: true,
-        verificado: true
+        verificado: true,
+        pedidosHistoricos: 20
     },
     {
-        nombre: "Estética Canina Roma",
-        ciudad: "Ciudad de México",
-        colonia: "Roma Norte",
-        servicios: ["Baño", "Corte", "Spa", "BotaniCan"],
-        whatsapp: "5535104900",
-        ubicacion: "https://maps.google.com/?q=19.415,-99.160",
+        nombre: "EUREKA - Miriam Godoy",
+        ciudad: "México",
+        colonia: "Ciudad Guzmán, Jalisco",
+        servicios: ["Estética canina completa", "Productos BotaniCan", "Cortes de raza"],
+        whatsapp: "3411550183",
+        ubicacion: "https://maps.google.com/?q=Ciudad+Guzman+Jalisco",
         usaBotaniCan: true,
-        verificado: false
+        verificado: true,
+        pedidosHistoricos: 14
+    },
+    {
+        nombre: "Sofia Valencia - Estética Canina",
+        ciudad: "México",
+        colonia: "Tehuacán, Puebla",
+        servicios: ["Baño", "Corte", "Spa", "Productos BotaniCan"],
+        whatsapp: "2227706358",
+        ubicacion: "https://maps.google.com/?q=Tehuacan+Puebla",
+        usaBotaniCan: true,
+        verificado: true,
+        pedidosHistoricos: 10
+    },
+    {
+        nombre: "Daniela Berumen - Pet Grooming",
+        ciudad: "México",
+        colonia: "Ciudad de México",
+        servicios: ["Grooming profesional", "Spa completo", "Productos BotaniCan"],
+        whatsapp: "8712110324",
+        ubicacion: "https://maps.google.com/?q=Ciudad+de+Mexico",
+        usaBotaniCan: true,
+        verificado: true,
+        pedidosHistoricos: 9
     }
 ];
 
