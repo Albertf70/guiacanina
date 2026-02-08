@@ -594,6 +594,7 @@ function renderCuidadosBañoSection(breed) {
                 ${bc.cuidadoAdicional ? `<p><strong>Cuidado adicional:</strong> ${bc.cuidadoAdicional}</p>` : ''}
                 
                 <a href="${bc.link}" target="_blank" class="btn-primary">Ver Productos BotaniCan</a>
+                <button onclick="compartirProducto('${breed.nombre}')" class="btn-share" style="margin-left:0.5rem">📤 Compartir</button>
             </div>
         `;
     }
