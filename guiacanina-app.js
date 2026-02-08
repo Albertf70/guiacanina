@@ -578,25 +578,40 @@ function renderCuidadosBañoSection(breed) {
     // BOTANICAN (Integración natural)
     if (cuidados.botanican) {
         const bc = cuidados.botanican;
-        html += `
-            <div class="botanican-section">
-                <h3>🧴 Recomendación: ${bc.recomendado}</h3>
-                <p>${bc.porque}</p>
-                
-                ${bc.beneficios && bc.beneficios.length > 0 ? `
-                    <p><strong>Beneficios:</strong></p>
-                    <ul>
-                        ${bc.beneficios.map(b => `<li>${b}</li>`).join('')}
-                    </ul>
-                ` : ''}
-                
-                ${bc.frecuenciaUso ? `<p><strong>Frecuencia de uso:</strong> ${bc.frecuenciaUso}</p>` : ''}
-                ${bc.cuidadoAdicional ? `<p><strong>Cuidado adicional:</strong> ${bc.cuidadoAdicional}</p>` : ''}
-                
-                <a href="${bc.link}" target="_blank" class="btn-primary">Ver Productos BotaniCan</a>
-                <button onclick="compartirProducto('${breed.nombre}')" class="btn-share" style="margin-left:0.5rem">📤 Compartir</button>
-            </div>
-        `;
+        
+        // Nueva estructura con recomendaciones array
+        if (bc.recomendaciones && bc.recomendaciones.length > 0) {
+            bc.recomendaciones.forEach(rec => {
+                html += `
+                    <div class="botanican-section">
+                        <h3>🧴 ${rec.producto}</h3>
+                        <span class="badge">${rec.prioridad}</span>
+                        <p>${rec.porque}</p>
+                        
+                        ${rec.beneficios && rec.beneficios.length > 0 ? `
+                            <p><strong>Beneficios:</strong></p>
+                            <ul>
+                                ${rec.beneficios.map(b => `<li>${b}</li>`).join('')}
+                            </ul>
+                        ` : ''}
+                        
+                        <a href="${rec.link}" target="_blank" class="btn-primary">Ver Producto</a>
+                        <button onclick="compartirProducto('${breed.nombre}', '${rec.producto}', '${rec.link}')" class="btn-share" style="margin-left:0.5rem">📤 Compartir</button>
+                    </div>
+                `;
+            });
+        }
+        // Estructura vieja (fallback)
+        else if (bc.recomendado) {
+            html += `
+                <div class="botanican-section">
+                    <h3>🧴 Recomendación: ${bc.recomendado}</h3>
+                    <p>${bc.porque}</p>
+                    <a href="${bc.link}" target="_blank" class="btn-primary">Ver Productos BotaniCan</a>
+                    <button onclick="compartirProducto('${breed.nombre}')" class="btn-share" style="margin-left:0.5rem">📤 Compartir</button>
+                </div>
+            `;
+        }
     }
     
     html += `</div>`;
@@ -923,19 +938,14 @@ https://guiacanina.vercel.app`;
     }
 }
 
-async function compartirProducto(breed) {
-    if (!breed.cuidadosBañoEstetica?.botanican) return;
-    
-    const bc = breed.cuidadosBañoEstetica.botanican;
+async function compartirProducto(breedName, producto, link) {
     const texto = `🧴 *Shampoo BotaniCan recomendado*
 
-Para: ${breed.nombre}
-Producto: ${bc.recomendado}
+Para: ${breedName}
+Producto: ${producto}
 
-✅ ${bc.porque.substring(0, 100)}...
-
-🛒 Ver producto:
-${bc.link}
+🛒 Comprar directo:
+${link}
 
 📱 Más info en GuíaCanina:
 https://guiacanina.vercel.app`;
@@ -943,12 +953,12 @@ https://guiacanina.vercel.app`;
     try {
         if (navigator.share) {
             await navigator.share({
-                title: `BotaniCan - ${bc.recomendado}`,
+                title: `BotaniCan - ${producto}`,
                 text: texto
             });
         } else {
             await navigator.clipboard.writeText(texto);
-            alert('📋 Copiado al portapapeles');
+            alert('📋 Link copiado al portapapeles');
         }
     } catch (err) {
         console.log('Error compartiendo:', err);
