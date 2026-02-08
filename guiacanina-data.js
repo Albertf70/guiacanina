@@ -1,6 +1,6 @@
 /**
  * GUÍACANINA - BASE DE DATOS DE RAZAS
- * Información completa sobre 23 razas de perros
+ * Información completa sobre 21 razas de perros
  * Incluye: Origen, temperamento, salud, alimentación, cuidados, BotaniCan, salud pública
  */
 
@@ -2294,7 +2294,15 @@ const BREEDS_DATABASE = [
     }
 }
 
-,{
+];
+
+// Total: 21 razas completas con información detallada
+
+// ============================================
+// CALUPOH (RAZA MEXICANA #3)
+// ============================================
+
+{
     id: "calupoh",
     nombre: "Calupoh",
     nombresAlternativos: ["Perro Lobo Mexicano"],
@@ -2306,14 +2314,14 @@ const BREEDS_DATABASE = [
     origen: {
         pais: "México 🇲🇽",
         estado: "Nacional",
-        epoca: "1999",
-        historia: "Raza mexicana moderna desarrollada desde 1999 por la UNAM mediante cruza controlada entre perros y lobos grises mexicanos. Reconocida por la FCM en 2011.",
-        curiosidad: "Única raza reconocida con genética de lobo mexicano (2-5%)."
+        epoca: "1999 (raza moderna)",
+        historia: "Raza mexicana moderna desarrollada desde 1999 por la UNAM mediante cruza controlada entre perros y lobos grises mexicanos. Reconocida por la FCM en 2011. Su nombre proviene del náhuatl 'calli' (casa) y 'ohtli' (camino).",
+        curiosidad: "Única raza reconocida con genética de lobo mexicano (2-5% genes de lobo)."
     },
     
     pesoIdeal: {
-        adulto: "25-45 kg",
-        alerta: "Raza grande, requiere espacio"
+        macho: "25-45 kg",
+        hembra: "25-40 kg"
     },
     
     esperanzaVida: "12-14 años",
@@ -2322,51 +2330,14 @@ const BREEDS_DATABASE = [
         personalidad: "Leal, inteligente, reservado, protector",
         nivelEnergia: "Muy Alto",
         sociabilidad: {
-            conHumanos: "Leal con familia, reservado con extraños",
-            conNiños: "⚠️ Supervisión estricta - No para niños pequeños",
-            conPerros: "Dominante, necesita jerarquía",
+            conHumanos: "Leal extremo con familia",
+            conNiños: "⚠️ Supervisión estricta",
+            conPerros: "Dominante",
             conExtraños: "Reservado, territorial"
         },
-        adiestramiento: "Difícil - Solo para dueños experimentados",
-        ladridos: "Bajo - Prefiere aullar",
-        caracteristicas: [
-            "Fuerte instinto de manada",
-            "NO para principiantes",
-            "Extremadamente inteligente",
-            "Puede aullar como lobo"
-        ]
-    },
-    
-    etapasVida: {
-        cachorro: {
-            edad: "0-18 meses",
-            cuidados: [
-                "Socialización CRÍTICA desde 8 semanas",
-                "Entrenamiento profesional OBLIGATORIO",
-                "4 comidas al día alta proteína",
-                "Establecer jerarquía desde inicio"
-            ]
-        },
-        adulto: {
-            edad: "18 meses-8 años",
-            cuidados: [
-                "2-3 horas ejercicio diario MÍNIMO",
-                "Dieta alta en proteína animal",
-                "Chequeos anuales"
-            ]
-        },
-        senior: {
-            edad: "8+ años",
-            cuidados: [
-                "Ejercicio moderado",
-                "Suplementos articulaciones",
-                "Chequeos cada 6 meses"
-            ],
-            enfermedadesComunes: [
-                "Displasia de cadera",
-                "Artritis"
-            ]
-        }
+        adiestramiento: "Difícil - Solo expertos",
+        ladridos: "Bajo - Aúlla como lobo",
+        caracteristicas: ["Instinto de manada fuerte", "NO para principiantes", "Muy inteligente", "Territorial"]
     },
     
     alimentacion: {
@@ -2377,372 +2348,37 @@ const BREEDS_DATABASE = [
             adulto: "2 veces al día",
             senior: "2 veces al día"
         },
-        alertas: [
-            "Prefiere carne fresca o dieta BARF",
-            "Evitar cereales como ingrediente principal",
-            "Agua siempre disponible",
-            "Huesos carnosos crudos buenos para dientes"
-        ],
-        suplementos: [
-            "Glucosamina (articulaciones)",
-            "Omega 3",
-            "Condroitina"
-        ]
+        alertas: ["Prefiere carne fresca o BARF", "Evitar cereales", "Huesos carnosos buenos"]
     },
     
-    problemasCongenitos: [
-        "Displasia de cadera (como razas grandes)",
-        "Problemas digestivos (sistema sensible)",
-        "Torsión gástrica (riesgo bajo-moderado)"
-    ],
-    
-    saludComun: [
-        "Displasia de cadera",
-        "Sensibilidad digestiva",
-        "Alergias alimentarias si dieta incorrecta"
-    ],
-    
     cuidadosBañoEstetica: {
-        tipoPelaje: "Doble capa densa, pelo semi-largo similar a lobo",
-        
+        tipoPelaje: "Doble capa densa, pelo semi-largo",
         cepillado: {
-            frecuencia: "3-4 veces por semana, diario en época de muda",
-            herramientas: ["Cepillo slicker", "Rastrillo para subpelo", "Peine de metal"],
-            nota: "Muda intensa 2 veces al año"
+            frecuencia: "3-4 veces/semana, diario en muda",
+            herramientas: ["Slicker", "Rastrillo subpelo"]
         },
-        
         baño: {
-            frecuencia: "Cada 2-3 meses (NO bañar en exceso)",
-            temperatura: "Tibia",
-            secado: "Secar completamente"
+            frecuencia: "Cada 2-3 meses"
         },
-        
         botanican: {
-            recomendado: "BotaniCan Verde Botánico 7en1 - Uso Normal",
+            recomendado: "Shampoo Verde Botánico 7en1",
             link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594",
-            porque: "El Calupoh es un perro de trabajo activo que pasa mucho tiempo al exterior. El Shampoo Verde con propiedades repelentes y antihongos es ideal para protegerlo de parásitos externos y mantener su pelaje denso limpio y saludable sin resecar su piel.",
-            beneficios: [
-                "Repelente natural contra pulgas y garrapatas",
-                "Propiedades antihongos para prevención",
-                "Limpieza profunda sin resecar",
-                "pH 7.0 balanceado para piel canina",
-                "Ingredientes naturales seguros",
-                "Ideal para perros activos de exterior"
-            ],
-            frecuenciaUso: "Cada 2-3 meses"
-        },
-        
-        alertasProductos: {
-            prohibido: [
-                "🚫 Shampoos humanos (pH incorrecto)",
-                "🚫 Productos con fragancias artificiales fuertes",
-                "🚫 Baños muy frecuentes (elimina aceites protectores)"
-            ],
-            consecuencias: "Puede causar piel seca, pérdida de brillo, irritación"
+            porque: "Perro activo de exterior. Verde repelente ideal para protección contra parásitos y mantener pelaje denso limpio.",
+            beneficios: ["Repelente natural pulgas/garrapatas", "Antihongos", "pH balanceado", "Ingredientes naturales"]
         }
     },
     
     tipsEspecificos: [
-        "🐺 NO es un perro para principiantes - Requiere experiencia",
+        "🐺 NO para principiantes",
         "🏃 MÍNIMO 2-3 horas ejercicio diario",
-        "👥 Socialización temprana CRÍTICA",
-        "🏠 NO apto para departamento - Necesita espacio amplio",
-        "🍖 Dieta alta en proteína animal, evita cereales",
-        "🦴 Huesos carnosos crudos para mantener dientes",
-        "❄️ Tolera muy bien el frío, sensible a calor extremo",
-        "🎓 Entrenamiento con refuerzo positivo, NUNCA violencia",
-        "⚠️ Requiere liderazgo firme y consistente"
-    ],
-    
-    alertasCriticas: [
-        "🚨 NO para dueños sin experiencia",
-        "🚨 Requiere entrenamiento profesional obligatorio",
-        "⚠️ Puede ser territorial y dominante",
-        "⚠️ Supervisión con niños pequeños SIEMPRE"
+        "🏠 NO apto departamento",
+        "🍖 Dieta alta proteína animal"
     ],
     
     saludPublica: {
-        esPotencialmentePeligroso: false,
         requiereLicencia: true,
-        restricciones: "Requiere registro especial FCM. Algunos seguros lo consideran raza de riesgo por genética de lobo.",
-        contaminacionFecal: {
-            peligros: ["Mismo que otras razas - parásitos zoonóticos"],
-            responsabilidades: [
-                "✅ Recoger heces siempre",
-                "✅ Desparasitación cada 3 meses",
-                "✅ Control veterinario estricto"
-            ]
-        },
-        desparasitacion: {
-            cachorro: "Mensual hasta 6 meses",
-            adulto: "Cada 3 meses",
-            senior: "Cada 3 meses"
-        }
-    },
-    
-    costoMantenimiento: {
-        nivel: "Alto",
-        veterinario: "Medio (generalmente sanos)",
-        alimentacion: "Alta (come mucho, requiere proteína premium)",
-        aseo: "Medio",
-        entrenamiento: "Alto (profesional requerido)"
+        restricciones: "Requiere registro especial FCM"
     }
 }
-,{
-    id: "poodle",
-    nombre: "Poodle",
-    nombresAlternativos: ["French Poodle", "Caniche", "Pudel"],
-    categoria: "pequenas",
-    imagen: "🐩",
-    tamaño: "Pequeñas",
-    esPatrimonioMexicano: false,
-    
-    origen: {
-        pais: "Francia 🇫🇷 (Alemania reclama co-origen)",
-        estado: "Nacional",
-        epoca: "Siglo XV",
-        historia: "A pesar del nombre 'French Poodle', la raza tiene origen alemán ('Pudel' = chapotear en agua) como perro cobrador de aves acuáticas. Francia lo adoptó y perfeccionó como perro de compañía de la nobleza. Su corte característico no es estético: se dejaba pelo en articulaciones y órganos vitales para protección en agua fría. Es el perro nacional de Francia y una de las razas más inteligentes del mundo.",
-        curiosidad: "El corte 'león' del Poodle originalmente tenía función: pelo en pecho para flotar, pelo en articulaciones para proteger del frío. No era moda, era funcional."
-    },
-    
-    pesoIdeal: {
-        adulto: "Toy: 2-4kg | Miniatura: 4-7kg | Mediano: 7-12kg | Estándar: 20-32kg",
-        alerta: "En México predominan Toy y Miniatura"
-    },
-    
-    esperanzaVida: "12-15 años (Toy/Mini viven más que Standard)",
-    
-    temperamento: {
-        personalidad: "Inteligente, activo, elegante, sociable, orgulloso",
-        nivelEnergia: "Alto (necesita estimulación mental)",
-        sociabilidad: {
-            conHumanos: "Excelente, orientado a la familia",
-            conNiños: "Muy bueno (Miniatura/Standard mejor que Toy)",
-            conPerros: "Generalmente sociable si se socializa",
-            conExtraños: "Amigable pero puede ser reservado"
-        },
-        adiestramiento: "Muy fácil - 2da raza más inteligente (después Border Collie)",
-        ladridos: "Moderado-Alto (buen perro guardián)",
-        caracteristicas: [
-            "Extremadamente inteligente",
-            "Aprende trucos rápidamente",
-            "Puede ser ansioso si se deja solo",
-            "Necesita compañía constante",
-            "Hipoalergénico (no suelta pelo)"
-        ]
-    },
-    
-    etapasVida: {
-        cachorro: {
-            edad: "0-12 meses (Toy/Mini) | 0-18 meses (Standard)",
-            cuidados: [
-                "Socialización temprana crucial",
-                "4 comidas al día hasta 6 meses",
-                "Comenzar grooming desde pequeño para acostumbrar",
-                "Entrenamiento de obediencia (aprenden rápido)",
-                "Estimulación mental diaria (juguetes interactivos)"
-            ]
-        },
-        adulto: {
-            edad: "1-8 años",
-            cuidados: [
-                "2 comidas al día",
-                "Ejercicio 30-60 minutos diarios",
-                "Grooming profesional cada 6-8 semanas OBLIGATORIO",
-                "Cepillado diario en casa",
-                "Estimulación mental (son muy inteligentes)"
-            ]
-        },
-        senior: {
-            edad: "8+ años (Toy/Mini) | 7+ años (Standard)",
-            cuidados: [
-                "Chequeos veterinarios cada 6 meses",
-                "Ejercicio moderado adaptado",
-                "Mantener grooming regular",
-                "Vigilar articulaciones y dientes"
-            ],
-            enfermedadesComunes: [
-                "Problemas dentales (muy común)",
-                "Cataratas",
-                "Displasia de cadera (Standard)",
-                "Luxación rotuliana (Toy/Mini)"
-            ]
-        }
-    },
-    
-    alimentacion: {
-        tipoAlimento: "Premium alta calidad para razas pequeñas/medianas",
-        calorias: "Toy: 200-400 cal/día | Mini: 400-600 | Standard: 1000-1500",
-        comidas: {
-            cachorro: "4 veces al día (hasta 6 meses)",
-            adulto: "2 veces al día",
-            senior: "2 veces al día (menor cantidad)"
-        },
-        alertas: [
-            "Propenso a obesidad - controlar porciones",
-            "Evitar comida de mesa (acostumbran a mendigar)",
-            "Necesita dieta balanceada para piel y pelo sano",
-            "Agua siempre disponible"
-        ],
-        suplementos: [
-            "Omega 3 y 6 (para pelo brillante)",
-            "Glucosamina (articulaciones en edad senior)",
-            "Probióticos (sistema digestivo sensible)"
-        ]
-    },
-    
-    problemasCongenitos: [
-        "Luxación rotuliana (Toy/Miniatura)",
-        "Enfermedad de Addison (Standard)",
-        "Displasia de cadera (Standard)",
-        "Problemas oculares (cataratas, atrofia retina)",
-        "Epilepsia",
-        "Enfermedad de Von Willebrand (problemas coagulación)"
-    ],
-    
-    saludComun: [
-        "Problemas dentales (cepillado dental necesario)",
-        "Infecciones de oído (por pelo en canal auditivo)",
-        "Alergias cutáneas",
-        "Problemas articulares en edad senior",
-        "Ansiedad por separación"
-    ],
-    
-    cuidadosBañoEstetica: {
-        tipoPelaje: "Rizado, denso, lanoso, de crecimiento continuo (NO muda)",
-        
-        cepillado: {
-            frecuencia: "DIARIO obligatorio (se enreda fácilmente)",
-            herramientas: ["Cepillo slicker", "Peine de metal", "Cepillo desenredante"],
-            nota: "Si no se cepilla diariamente forma nudos imposibles de quitar"
-        },
-        
-        baño: {
-            frecuencia: "Cada 3-6 semanas (con grooming profesional)",
-            temperatura: "Tibia",
-            secado: "Secar completamente con secadora (el pelo retiene humedad)",
-            importante: "SIEMPRE cepillar ANTES del baño (los nudos se aprietan con agua)"
-        },
-        
-        corte: {
-            frecuencia: "Cada 6-8 semanas OBLIGATORIO con groomer profesional",
-            estilos: [
-                "Corte cachorro (más fácil de mantener)",
-                "Corte león (tradicional, requiere mucho mantenimiento)",
-                "Corte teddy bear (popular en México)",
-                "Corte continental (exhibición)"
-            ],
-            costo: "$$$ Alto - es el grooming más caro ($600-1,200 MXN)",
-            importante: "El grooming NO es opcional - sin corte regular el pelo crece sin parar y forma nudos dolorosos"
-        },
-        
-        botanican: {
-            recomendado: "BotaniCan Suave e Hidratante 7en1 - Piel Sensible",
-            link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396",
-            porque: "El Poodle tiene pelo rizado y denso que requiere hidratación profunda. El Shampoo Suave e Hidratante es ideal para evitar resequedad, facilitar el desenredado y mantener el pelo brillante y sedoso sin irritar su piel sensible.",
-            beneficios: [
-                "Hidratación profunda para pelo rizado",
-                "Facilita desenredado",
-                "Acondicionador incluido (pelo más manejable)",
-                "pH 7.0 balanceado",
-                "Suave para baños frecuentes",
-                "Ingredientes naturales hipoalergénicos",
-                "Brillo y sedosidad al pelo"
-            ],
-            frecuenciaUso: "Cada 3-4 semanas con grooming profesional",
-            alternativa: "BotaniCan Cero Nudos 2en1 - excelente para Poodles con tendencia a enredos"
-        },
-        
-        cuidadosEspeciales: {
-            orejas: "Limpiar semanalmente y QUITAR pelo del canal auditivo (acumulación causa infecciones)",
-            ojos: "Limpiar lagañas diarias (manchan pelo blanco/crema)",
-            uñas: "Cortar cada 3-4 semanas",
-            dientes: "Cepillado dental 3-4 veces por semana (propenso a sarro)",
-            glandulasAnales: "Revisar mensualmente (pueden llenarse)"
-        },
-        
-        alertasProductos: {
-            prohibido: [
-                "🚫 Shampoos humanos (pH incorrecto, resecan)",
-                "🚫 Productos con sulfatos agresivos",
-                "🚫 Acondicionadores muy pesados (apelmaza)",
-                "🚫 Bañar sin cepillar antes (fija nudos)"
-            ],
-            consecuencias: "Pelo reseco, nudos, irritación piel, pérdida de brillo"
-        }
-    },
-    
-    tipsEspecificos: [
-        "🐩 Grooming profesional NO es lujo - es NECESIDAD (pelo crece sin parar)",
-        "✂️ Inversión grooming: $600-1,200 cada 6-8 semanas = $3,600-7,200/año",
-        "🧠 Necesita estimulación mental diaria (es muy inteligente, se aburre)",
-        "🏃 Ejercicio diario necesario (no es perro de sillón)",
-        "👂 SIEMPRE secar orejas completamente después del baño",
-        "🦷 Cepillado dental regular (problemas dentales muy comunes)",
-        "❄️ Tolera mejor frío que calor (pero no le gusta lluvia)",
-        "🏠 Apto para departamento si se ejercita",
-        "👨‍👩‍👧 Excelente para familias (pero Toy frágil con niños pequeños)",
-        "⚠️ Puede desarrollar ansiedad por separación si se deja solo mucho tiempo"
-    ],
-    
-    alertasCriticas: [
-        "🚨 Grooming profesional es OBLIGATORIO cada 6-8 semanas - sin excepción",
-        "🚨 Cepillado DIARIO o tendrás nudos que requieren rasurar completo",
-        "⚠️ Pelo en orejas debe removerse regularmente (infecciones)",
-        "⚠️ Si no puedes costear grooming regular ($600-1,200 cada 2 meses), considera otra raza",
-        "⚠️ Necesita compañía - NO es perro para dejar solo 8+ horas diarias"
-    ],
-    
-    saludPublica: {
-        esPotencialmentePeligroso: false,
-        requiereLicencia: false,
-        restricciones: "Ninguna - raza segura y amigable",
-        contaminacionFecal: {
-            peligros: ["Parásitos intestinales (Giardia común)", "Bacterias E.coli", "Toxoplasmosis"],
-            responsabilidades: [
-                "✅ Recoger heces SIEMPRE (especialmente en parques)",
-                "✅ Desparasitación cada 3 meses",
-                "✅ Vacunas al día"
-            ]
-        },
-        desparasitacion: {
-            cachorro: "Mensual hasta 6 meses",
-            adulto: "Cada 3 meses",
-            senior: "Cada 3 meses"
-        }
-    },
-    
-    costoMantenimiento: {
-        nivel: "ALTO",
-        veterinario: "Medio ($1,500-3,000/año)",
-        alimentacion: "Media-Alta (requiere alimento premium $800-1,500/mes)",
-        aseo: "MUY ALTO (grooming $3,600-7,200/año + productos en casa)",
-        accesorios: "Medio (ropa para frío, juguetes interactivos)",
-        total: "Estimar $8,000-12,000 MXN/mes incluyendo grooming profesional",
-        nota: "El grooming profesional es el gasto OBLIGATORIO más alto. Si no puedes costearlo, el Poodle NO es para ti."
-    },
-    
-    mensajeFinal: {
-        titulo: "El Poodle: ¿Es para ti?",
-        ideal_para: [
-            "Personas con tiempo para cuidado diario",
-            "Presupuesto para grooming profesional regular",
-            "Familias activas que buscan perro inteligente",
-            "Personas con alergias (hipoalergénico)",
-            "Dueños comprometidos con entrenamiento y estimulación mental",
-            "Hogares donde alguien está en casa la mayor parte del día"
-        ],
-        NO_ideal_para: [
-            "Presupuesto limitado (grooming es MUY caro)",
-            "Personas muy ocupadas (necesita atención diaria)",
-            "Quienes buscan perro 'de bajo mantenimiento'",
-            "Personas que no pueden cepillar diariamente",
-            "Hogares donde queda solo 8+ horas diarias"
-        ],
-        realidad: "El Poodle es un compañero extraordinario: inteligente, cariñoso, elegante y versátil. PERO requiere compromiso SERIO de tiempo (cepillado diario) y dinero (grooming profesional cada 6-8 semanas es OBLIGATORIO, no opcional). Su pelo crece sin parar y sin cuidado regular forma nudos dolorosos que requieren rasurar completo. Si estás dispuesto a invertir tiempo y dinero, tendrás uno de los perros más inteligentes y leales que existen. Si buscas bajo mantenimiento, elige otra raza."
-    }
-}
-
-// Total: 23 razas completas (3 mexicanas: Chihuahua, Xoloitzcuintle, Calupoh + Poodle)
 
 ];
