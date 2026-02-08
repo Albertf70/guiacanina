@@ -962,6 +962,8 @@ https://guiacanina.vercel.app`;
 function showHome() {
     document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
     document.querySelector('.nav-btn').classList.add('active');
+    currentFilter = 'all';
+    searchTerm = '';
     renderBreeds();
 }
 
@@ -990,4 +992,27 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function closeAbout() {
     document.getElementById('aboutModal').classList.add('hidden');
+}
+
+// ============================================
+// COMPARTIR APP
+// ============================================
+
+async function compartirApp() {
+    const texto = '🐕 *GuíaCanina* - Tu referencia completa para el cuidado de tu perro\n\n✅ 22 razas con información detallada\n✅ Recomendaciones BotaniCan Shampoo\n✅ Guía de productos por raza\n✅ Directorio de estéticas caninas\n\n📱 Descarga GRATIS:\nhttps://guiacanina.vercel.app';
+
+    try {
+        if (navigator.share) {
+            await navigator.share({
+                title: 'GuíaCanina',
+                text: texto,
+                url: 'https://guiacanina.vercel.app'
+            });
+        } else {
+            await navigator.clipboard.writeText(texto);
+            alert('📋 Link copiado al portapapeles');
+        }
+    } catch (err) {
+        console.log('Error:', err);
+    }
 }
