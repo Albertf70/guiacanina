@@ -167,16 +167,21 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "Shampoo Suave e Hidratante 7en1",
-            porque: "Los Chihuahuas tienen piel delicada y son propensos a alergias. Por su tamaño pequeño, un shampoo suave es esencial. BotaniCan con ingredientes naturales es perfecto para no irritar su piel sensible y mantener el brillo natural de su pelaje.",
-            beneficios: [
-                "pH 7.0 balanceado para piel canina sensible",
-                "Ingredientes naturales sin químicos agresivos",
-                "No reseca la piel delicada",
-                "Olor suave natural",
-                "Ideal para baños frecuentes si es necesario"
-            ],
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Suave e Hidratante 7en1",
+                    prioridad: "Principal",
+                    porque: "El Chihuahua tiene piel muy sensible y delicada por su tamaño pequeño. Este shampoo hipoalergénico es perfecto: no irrita, hidrata profundamente sin resecar, y es suave para su pelaje corto. Ideal para su piel fina que requiere cuidado delicado.",
+                    beneficios: [
+                        "Hipoalergénico - ideal para piel sensible",
+                        "Hidratación sin resecar",
+                        "pH 7.0 balanceado",
+                        "No irrita piel delicada",
+                        "Aromaterapia calmante"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396"
+                }
+            ]
         },
         
         alertasProductos: {
@@ -410,20 +415,22 @@ const BREEDS_DATABASE = [
             ],
             
             botanican: {
-                recomendado: "BotaniCan Hipoalergénico",
-                porque: "El Xolo sin pelo necesita un shampoo MUY suave que limpie sin resecar su piel expuesta. BotaniCan Hipoalergénico con ingredientes naturales es perfecto para mantener el balance de pH de su piel delicada sin aceites agresivos. Ideal para razas sin pelo que requieren baños frecuentes.",
-                beneficios: [
-                    "pH 7.0 balanceado para piel canina",
-                    "Ingredientes naturales (sin químicos agresivos)",
-                    "Limpieza profunda sin resecar",
-                    "Control de sebo sin eliminar protección natural",
-                    "Apto para baños frecuentes",
-                    "No irrita piel sensible expuesta"
-                ],
-                cuidadoAdicional: "Después del baño, aplicar aceite natural (coco o almendras dulces) para mantener piel hidratada y protegida",
-                frecuencia: "Cada 7-14 días",
-                link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
-            }
+            recomendaciones: [
+                {
+                    producto: "Shampoo Suave e Hidratante 7en1",
+                    prioridad: "ESENCIAL - Obligatorio",
+                    porque: "El Xoloitzcuintle SIN pelo tiene piel desnuda expuesta 24/7 al ambiente. Requiere hidratación CONSTANTE y profunda. Sin este shampoo especializado, su piel se reseca, agrieta, descama y desarrolla dermatitis severa. Es INDISPENSABLE para mantener su piel saludable, elástica y protegida.",
+                    beneficios: [
+                        "Hidratación profunda y constante",
+                        "Previene resequedad extrema",
+                        "Protege piel desnuda",
+                        "Reduce descamación",
+                        "Aromaterapia calmante"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396"
+                }
+            ]
+        }
         },
         
         variedadConPelo: {
@@ -606,18 +613,21 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + BotaniCan Medicado (según necesidad)",
-            porque: "Los Pugs tienen piel MUY sensible y propensa a alergias. BotaniCan Hipoalergénico mantiene la piel limpia sin irritaciones. Para Pugs con problemas de hongos en pliegues, el BotaniCan Medicado con ingredientes naturales ayuda a controlar levaduras y hongos sin químicos agresivos.",
-            beneficios: [
-                "Ingredientes naturales ideales para piel sensible",
-                "pH 7.0 balanceado",
-                "Controla olor sin resecar",
-                "Ayuda a prevenir infecciones de piel",
-                "No irrita ojos saltones del Pug",
-                "Medicado: control natural de hongos/levaduras"
-            ],
-            frecuenciaUso: "Hipoalergénico cada 3-4 semanas, Medicado según indicación veterinaria",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Suave e Hidratante 7en1",
+                    prioridad: "Principal",
+                    porque: "El Pug tiene piel MUY sensible y pliegues faciales profundos que acumulan humedad, bacterias y levaduras. Este shampoo hipoalergénico limpia suavemente los pliegues sin irritar, hidrata profundamente y previene infecciones.",
+                    beneficios: [
+                        "Hipoalergénico para piel sensible",
+                        "Limpia pliegues sin irritar",
+                        "Previene infecciones fúngicas",
+                        "Reduce mal olor",
+                        "Hidratación profunda"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396"
+                }
+            ]
         },
         
         alertasProductos: {
@@ -780,16 +790,20 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico (todas las variedades)",
-            porque: "El Teckel tiene piel sensible especialmente en la variedad de pelo corto. BotaniCan con ingredientes naturales previene resequedad y mantiene el pelaje brillante sin irritaciones.",
-            beneficios: [
-                "pH balanceado para piel canina",
-                "Previene resequedad",
-                "Mantiene brillo natural",
-                "Ideal para 3 tipos de pelaje",
-                "No irrita piel sensible"
-            ],
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Teckel es muy activo, explorador y su cuerpo largo está muy cerca del suelo, lo que lo expone constantemente a suciedad, barro y parásitos. El Verde limpia profundamente, repele pulgas/garrapatas.",
+                    beneficios: [
+                        "Limpieza profunda de suciedad",
+                        "Repele pulgas/garrapatas 14 días",
+                        "Ideal para perros bajos",
+                        "Antibacterial"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         },
         
         alertasProductos: {
@@ -1058,33 +1072,20 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico o Doble Capa",
-            
-            porqueEsIdeal: [
-                "✅ pH 7.0 balanceado específicamente para piel canina",
-                "✅ Ingredientes NATURALES (sin químicos agresivos)",
-                "✅ NO elimina aceites naturales protectores excesivamente",
-                "✅ Fórmula suave que respeta la doble capa",
-                "✅ Facilita enjuague (menos residuos)",
-                "✅ Aroma natural sin fragancias irritantes",
-                "✅ Mantiene brillo natural del pelaje",
-                "✅ NO reseca la piel"
-            ],
-            
-            beneficios: {
-                subpelo: "Limpia sin apelmazar el subpelo denso",
-                peloExterno: "Mantiene textura y resistencia del pelo de guarda",
-                piel: "Respeta el pH natural sin irritación",
-                resultados: "Pelaje limpio, brillante, suave, sin estática"
-            },
-            
-            comparacion: {
-                botanican: "Ingredientes naturales + pH correcto + Respeta aceites = Piel saludable",
-                shampooComercial: "Químicos fuertes + pH incorrecto + Reseca = Problemas de piel",
-                lavaplatos: "Detergente industrial + pH 10+ + Elimina TODO = DESASTRE TOTAL"
-            },
-            
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Cero Nudos 2en1",
+                    prioridad: "Principal",
+                    porque: "El Husky tiene doble capa MUY densa que se enreda fácilmente. El acondicionador facilita el cepillado, reduce nudos y mantiene el subpelo saludable.",
+                    beneficios: [
+                        "Desenreda doble capa densa",
+                        "Facilita cepillado profundo",
+                        "Reduce nudos hasta 80%",
+                        "Ayuda a remover subpelo muerto"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799"
+                }
+            ]
         },
         
         alertasProductos: {
@@ -1184,9 +1185,31 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "Diario", temporadaMuda: "2 veces al día" }},
         baño: { frecuencia: "Cada 6-8 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para su pelaje largo y piel sensible a alergias. Mantiene el característico color dorado brillante.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Cero Nudos 2en1",
+                    prioridad: "Principal",
+                    porque: "Su pelaje largo, denso y propenso a nudos requiere un shampoo con acondicionador integrado. Facilita enormemente el cepillado diario obligatorio.",
+                    beneficios: [
+                        "Desenreda desde primera aplicación",
+                        "Facilita cepillado diario",
+                        "Reduce nudos hasta 80%",
+                        "Pelo suave y manejable"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799"
+                },
+                {
+                    producto: "Shampoo Suave e Hidratante 7en1",
+                    prioridad: "Complementario",
+                    porque: "El Golden tiene piel sensible MUY propensa a alergias y dermatitis. Hipoalergénico ideal para su piel delicada.",
+                    beneficios: [
+                        "Hipoalergénico",
+                        "Reduce comezón desde 1ra aplicación",
+                        "Hidratación profunda"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396"
+                }
+            ]
         },
         alertasProductos: { prohibido: ["🚫 NUNCA rapar (doble capa)", "🚫 NO shampoo humano", "🚫 NO jabón trastes"] }
     },
@@ -1223,9 +1246,20 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "2-3 veces/semana", temporadaMuda: "Diario" }},
         baño: { frecuencia: "Cada 6-8 semanas o después de nadar" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para su piel sensible y baños frecuentes si nadan mucho.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Labrador ADORA el agua, se ensucia mucho y necesita limpieza profunda. El Verde penetra su capa impermeable, limpia a fondo y repele parásitos.",
+                    beneficios: [
+                        "Penetra capa impermeable",
+                        "Limpieza profunda post-natación",
+                        "Repele parásitos 14 días",
+                        "Antibacterial"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         },
         alertasProductos: { prohibido: ["🚫 NO rapar", "🚫 NO productos humanos"] }
     },
@@ -1263,9 +1297,19 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "3-4 veces/semana", temporadaMuda: "Diario (muda MUCHO)" }},
         baño: { frecuencia: "Cada 6-8 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Perfecto para su piel sensible a alergias y doble capa densa.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Pastor Alemán tiene doble capa MUY densa que requiere limpieza profunda. Como perro de trabajo muy activo necesita protección antiparasitaria.",
+                    beneficios: [
+                        "Limpieza profunda doble capa densa",
+                        "Protección antiparasitaria 14 días",
+                        "Ideal para perros de trabajo"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         },
         rapadoProhibido: {
             titulo: "NUNCA RAPAR - Doble capa nórdica",
@@ -1313,9 +1357,20 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 3-4 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + Medicado",
-            porque: "Piel muy sensible con tendencia a infecciones en pliegues.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Suave e Hidratante 7en1",
+                    prioridad: "Principal",
+                    porque: "El Bulldog Francés tiene piel MUY sensible, pliegues faciales y es extremadamente propenso a alergias. Este shampoo hipoalergénico limpia los pliegues sin irritar.",
+                    beneficios: [
+                        "Hipoalergénico para piel ultra sensible",
+                        "Limpia pliegues suavemente",
+                        "Reduce alergias",
+                        "Calma comezón"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1358,9 +1413,20 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 3-4 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + Medicado",
-            porque: "Esencial para piel extremadamente sensible y problemas en pliegues.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Suave e Hidratante 7en1",
+                    prioridad: "Principal",
+                    porque: "El Bulldog Inglés tiene pliegues PROFUNDOS en todo el cuerpo y piel extremadamente sensible. Este shampoo limpia todos los pliegues y previene infecciones.",
+                    beneficios: [
+                        "Limpia pliegues profundos",
+                        "Previene infecciones fúngicas",
+                        "Reduce mal olor intenso",
+                        "Hipoalergénico"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1397,9 +1463,20 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "Semanal" }},
         baño: { frecuencia: "Cada 4-6 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para su piel sensible y pelaje denso.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Beagle es MUY activo, olfatea TODO y se ensucia constantemente. El Verde limpia profundamente, repele pulgas/garrapatas y controla el olor.",
+                    beneficios: [
+                        "Limpieza profunda",
+                        "Repele parásitos 14 días",
+                        "Controla olor característico",
+                        "Ideal para exploradores"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1439,9 +1516,20 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 2-3 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + Acondicionador",
-            porque: "Esencial para mantener su pelo sedoso sin nudos.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Cero Nudos 2en1",
+                    prioridad: "Principal",
+                    porque: "El Yorkshire tiene pelo largo, sedoso y fino que se enreda con extrema facilidad. Este shampoo facilita el cepillado y previene nudos.",
+                    beneficios: [
+                        "Desenreda pelo fino",
+                        "Facilita cepillado diario",
+                        "Previene nudos",
+                        "Mantiene sedosidad"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1481,9 +1569,20 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 3-4 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Perfecto para su abundante doble capa y piel delicada.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Cero Nudos 2en1",
+                    prioridad: "Principal",
+                    porque: "El Pomerania tiene doble capa abundante y esponjosa que se enreda fácilmente. El acondicionador mantiene el volumen característico tipo 'pom pom'.",
+                    beneficios: [
+                        "Mantiene volumen esponjoso",
+                        "Facilita cepillado",
+                        "Previene nudos en subpelo",
+                        "Brillo tipo peluche"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799"
+                }
+            ]
         },
         rapadoProhibido: {
             titulo: "NO rapar completamente",
@@ -1526,9 +1625,20 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 2-3 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + Acondicionador",
-            porque: "Esencial para su pelo largo propenso a enredos y piel sensible.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Cero Nudos 2en1",
+                    prioridad: "Principal",
+                    porque: "El Shih Tzu tiene pelo largo y doble capa que se enreda con extrema facilidad. Este shampoo es ESENCIAL para facilitar el cepillado diario obligatorio.",
+                    beneficios: [
+                        "Desenreda doble capa",
+                        "Facilita cepillado diario",
+                        "Previene nudos severos",
+                        "Pelo sedoso y brillante"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1566,9 +1676,20 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 1-2 semanas (mantener blanco)" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para mantener su pelaje blanco brillante sin químicos agresivos que lo amarillen.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo para Pelo Blanco",
+                    prioridad: "Principal",
+                    porque: "El Maltés tiene pelo largo y completamente BLANCO que requiere cuidado especial. Este shampoo mantiene la blancura inmaculada y elimina manchas de lágrimas.",
+                    beneficios: [
+                        "Blancura inmaculada",
+                        "Elimina manchas de lágrimas",
+                        "Brillo intenso",
+                        "No daña pelo fino"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-Especial-para-Pelo-Blanco-1-Litro-p94401479"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1604,9 +1725,20 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "Semanal" }},
         baño: { frecuencia: "Cada 6-8 semanas" },
         botanican: {
-            recomendado: "BotaniCan Regular",
-            porque: "Ideal para su pelaje corto y piel resistente.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Nogal - Pelo Negro",
+                    prioridad: "Principal",
+                    porque: "El Rottweiler tiene pelaje mayormente NEGRO que puede decolorarse. El Nogal intensifica y mantiene el negro profundo característico.",
+                    beneficios: [
+                        "Intensifica negro profundo",
+                        "Previene decoloración",
+                        "Realza contraste negro-café",
+                        "Brillo intenso"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Nogal-Bot%C3%A1nico-especial-para-Pelo-Negro-1-Litro-p94305970"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1642,9 +1774,20 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "Semanal" }},
         baño: { frecuencia: "Cada 4-6 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para su piel sensible a alergias.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Boxer es muy activo y atlético. Necesita limpieza profunda que mantenga su pelaje brillante y protección contra parásitos.",
+                    beneficios: [
+                        "Limpieza profunda",
+                        "Mantiene brillo natural",
+                        "Protección antiparasitaria",
+                        "Ideal para perros atléticos"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1679,9 +1822,20 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "3-4 veces/semana (muda constante)" }},
         baño: { frecuencia: "Cada 4-6 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para su piel sensible a alergias.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Dálmata es extremadamente activo. El Verde limpia a fondo sin desvanecer el contraste blanco-negro característico.",
+                    beneficios: [
+                        "Limpieza profunda",
+                        "Mantiene contraste blanco-negro",
+                        "No desvanece manchas",
+                        "Protección antiparasitaria"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1718,9 +1872,20 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "2-3 veces/semana", temporadaMuda: "Diario" }},
         baño: { frecuencia: "Cada 6-8 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Perfecto para su doble capa y piel sensible.",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Cero Nudos 2en1",
+                    prioridad: "Principal",
+                    porque: "El Border Collie tiene doble capa de longitud media que se enreda. El acondicionador facilita el cepillado y mantiene su pelaje brillante.",
+                    beneficios: [
+                        "Desenreda doble capa",
+                        "Facilita cepillado regular",
+                        "Previene nudos",
+                        "Pelo brillante"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799"
+                }
+            ]
         }
     },
     tipsEspecificos: [
@@ -1800,16 +1965,20 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico (ideal para cualquier tipo de pelaje)",
-            porque: "Los perros criollos merecen el MISMO cuidado de calidad que cualquier raza pura. BotaniCan con ingredientes naturales es perfecto para su piel que puede haber sufrido en la calle. Ayuda a restaurar el brillo y salud del pelaje.",
-            beneficios: [
-                "pH balanceado para piel canina",
-                "Ingredientes naturales suaves",
-                "Restaura brillo del pelaje maltratado",
-                "Apto para piel sensible",
-                "No irrita piel que pudo haber tenido parásitos"
-            ],
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal - Versátil",
+                    porque: "Los criollos son resistentes con tipos de pelo variados. El Verde es versátil: limpia cualquier tipo de pelaje y protege contra parásitos.",
+                    beneficios: [
+                        "Versátil para cualquier tipo de pelo",
+                        "Limpieza profunda",
+                        "Protección antiparasitaria 14 días",
+                        "Ideal para perros rescatados"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+                }
+            ]
         },
         
         alertasProductos: {
@@ -2137,33 +2306,20 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "BotaniCan Regular o Hipoalergénico",
-            porque: "El pelaje duro del Schnauzer necesita un shampoo que limpie sin suavizar excesivamente la textura característica. BotaniCan con ingredientes naturales mantiene la textura del pelo sin químicos agresivos que pueden causar alergias (común en Schnauzers).",
-            beneficios: [
-                "✅ Limpia profundamente sin suavizar el pelo duro",
-                "✅ pH balanceado para piel sensible del Schnauzer",
-                "✅ No causa alergias (muchos Schnauzers tienen piel sensible)",
-                "✅ Ingredientes naturales no irritan piel",
-                "✅ Facilita el enjuague (importante con barba densa)",
-                "✅ Mantiene brillo natural sin aceites artificiales"
-            ],
-            linea: {
-                hipoalergenico: {
-                    para: "Schnauzers con piel sensible o alergias",
-                    beneficio: "Fórmula extra suave, sin irritantes"
-                },
-                regular: {
-                    para: "Mantenimiento regular de Schnauzers saludables",
-                    beneficio: "Limpieza profunda respetando textura del pelo"
+            recomendaciones: [
+                {
+                    producto: "Shampoo Verde Botánico 7en1",
+                    prioridad: "Principal",
+                    porque: "El Schnauzer tiene pelo duro y doble capa que requiere limpieza profunda. El Verde mantiene la textura característica del pelo.",
+                    beneficios: [
+                        "Limpieza profunda pelo duro",
+                        "Mantiene textura alambre",
+                        "No reseca doble capa",
+                        "Protección antiparasitaria"
+                    ],
+                    link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
                 }
-            },
-            comparacion: {
-                botanican: "Natural + pH correcto + Respeta textura = Pelaje sano",
-                shampooComercial: "Químicos + Puede suavizar pelo = Pierde textura Schnauzer",
-                shampooHumano: "pH incorrecto + Muy suave = ARRUINA textura del pelo duro"
-            },
-            frecuenciaUso: "Cada 4-6 semanas (antes de grooming profesional idealmente)",
-            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
+            ]
         }
     },
     
