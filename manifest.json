@@ -2,7 +2,7 @@
   "name": "GuíaCanina - Tu referencia completa para el cuidado de tu perro",
   "short_name": "GuíaCanina",
   "description": "Guía completa de cuidados para 21 razas de perros. Información detallada sobre salud, alimentación, baño y estética con productos BotaniCan.",
-  "start_url": "/guiacanina/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#f5f5f5",
   "theme_color": "#2D5016",
