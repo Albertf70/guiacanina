@@ -705,7 +705,7 @@ function renderBotaniCanFooter() {
                 <li>✅ Línea completa para diferentes necesidades</li>
             </ul>
             <p><strong>⚠️ Recuerda:</strong> NUNCA uses shampoo humano, jabón de trastes, o detergentes en tu perro. Estos productos causan daño severo a su piel y pueden generar costos veterinarios de miles de pesos.</p>
-            <a href="https://www.facebook.com/BotaniCanShampoo" target="_blank" class="btn-primary">Visitar BotaniCan Facebook</a>
+            <a href="https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009" target="_blank" class="btn-primary">Visitar BotaniCan</a>
         </div>
     `;
 }
@@ -885,3 +885,109 @@ function initializePWA() {
 // ========================================
 
 console.log('🐕 PetCare Pro cargado correctamente');
+
+// ============================================
+// FUNCIÓN COMPARTIR
+// ============================================
+
+async function compartirRaza(breed) {
+    const texto = `🐕 *${breed.nombre}* - GuíaCanina
+
+${breed.esPatrimonioMexicano ? '🇲🇽 Raza Mexicana Patrimonio Cultural\n\n' : ''}📊 Datos:
+• Tamaño: ${breed.tamaño}
+• Esperanza: ${breed.esperanzaVida}
+• Energía: ${breed.temperamento.nivelEnergia}
+
+${breed.cuidadosBañoEstetica?.botanican ? `🧴 Shampoo recomendado:
+${breed.cuidadosBañoEstetica.botanican.recomendado}
+
+🛒 Ver producto:
+${breed.cuidadosBañoEstetica.botanican.link}
+
+` : ''}📲 Conoce más razas en:
+https://guiacanina.vercel.app`;
+
+    try {
+        if (navigator.share) {
+            await navigator.share({
+                title: `GuíaCanina - ${breed.nombre}`,
+                text: texto
+            });
+        } else {
+            await navigator.clipboard.writeText(texto);
+            alert('📋 Copiado al portapapeles');
+        }
+    } catch (err) {
+        console.log('Error compartiendo:', err);
+    }
+}
+
+async function compartirProducto(breed) {
+    if (!breed.cuidadosBañoEstetica?.botanican) return;
+    
+    const bc = breed.cuidadosBañoEstetica.botanican;
+    const texto = `🧴 *Shampoo BotaniCan recomendado*
+
+Para: ${breed.nombre}
+Producto: ${bc.recomendado}
+
+✅ ${bc.porque.substring(0, 100)}...
+
+🛒 Ver producto:
+${bc.link}
+
+📱 Más info en GuíaCanina:
+https://guiacanina.vercel.app`;
+
+    try {
+        if (navigator.share) {
+            await navigator.share({
+                title: `BotaniCan - ${bc.recomendado}`,
+                text: texto
+            });
+        } else {
+            await navigator.clipboard.writeText(texto);
+            alert('📋 Copiado al portapapeles');
+        }
+    } catch (err) {
+        console.log('Error compartiendo:', err);
+    }
+}
+
+
+// ============================================
+// NAVEGACIÓN
+// ============================================
+
+function showHome() {
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelector('.nav-btn').classList.add('active');
+    renderBreeds();
+}
+
+function showGuiaShampoos() {
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.nav-btn')[1].classList.add('active');
+    document.getElementById('mainView').innerHTML = renderGuiaShampoos();
+}
+
+function showEsteticas() {
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.nav-btn')[2].classList.add('active');
+    document.getElementById('mainView').innerHTML = renderEsteticas();
+}
+
+// About modal
+document.addEventListener('DOMContentLoaded', () => {
+    const aboutLink = document.getElementById('aboutLink');
+    if (aboutLink) {
+        aboutLink.addEventListener('click', (e) => {
+            e.preventDefault();
+            document.getElementById('aboutModal').classList.remove('hidden');
+        });
+    }
+});
+
+function closeAbout() {
+    document.getElementById('aboutModal').classList.add('hidden');
+}
