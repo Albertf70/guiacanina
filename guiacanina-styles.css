@@ -667,11 +667,15 @@ body {
 }
 
 .alert-warning {
-    background: rgba(234, 179, 8, 0.15);
-    border: 2px solid var(--yellow);
+    background: rgba(99, 102, 241, 0.1);
+    border: 2px solid var(--accent-light);
     border-radius: var(--radius-sm);
     color: var(--text);
     padding: 1rem;
+}
+
+.alert-warning strong {
+    color: var(--yellow);
 }
 
 .alert-info {
