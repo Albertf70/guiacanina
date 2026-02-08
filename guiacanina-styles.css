@@ -18,6 +18,7 @@
     --text-muted: #64748b;
     --border: rgba(99,102,241,0.15);
     --glow: 0 0 40px rgba(99,102,241,0.15);
+    --glow-hover: 0 12px 48px rgba(99,102,241,0.25);
     
     /* Colores originales */
     --color-bg: #0f0f1a;
@@ -611,15 +612,17 @@ body {
 }
 
 .detail-section {
-    background: var(--color-white);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     box-shadow: var(--shadow-sm);
+    color: var(--text);
 }
 
 .detail-section h2 {
-    color: var(--color-primary);
+    color: var(--accent-light);
     font-size: 1.5rem;
     margin-bottom: 1rem;
     display: flex;
@@ -628,7 +631,7 @@ body {
 }
 
 .detail-section h3 {
-    color: var(--color-secondary);
+    color: var(--green);
     font-size: 1.2rem;
     margin-top: 1.5rem;
     margin-bottom: 0.75rem;
@@ -664,9 +667,9 @@ body {
 }
 
 .alert-warning {
-    background: #fffbe6;
+    background: rgba(234, 179, 8, 0.1);
     border-color: var(--color-warning);
-    color: #8B4513;
+    color: var(--yellow);
 }
 
 .alert-info {
@@ -689,7 +692,7 @@ body {
 
 /* === BOTANICAN SECTION === */
 .botanican-section {
-    background: linear-gradient(135deg, var(--color-secondary) 0%, #a0522d 100%);
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
     color: var(--color-white);
     padding: 1.5rem;
     border-radius: var(--radius);
@@ -703,13 +706,13 @@ body {
 
 .botanican-section .btn-primary {
     background: var(--color-white);
-    color: var(--color-secondary);
+    color: #059669;
     margin-top: 1rem;
 }
 
 .botanican-section .btn-primary:hover {
-    background: var(--color-accent);
-    color: var(--color-white);
+    background: rgba(255, 255, 255, 0.9);
+    color: #047857;
 }
 
 /* === TABLE === */
@@ -817,17 +820,18 @@ body {
 }
 
 .modal-content {
-    background: var(--color-white);
+    background: var(--bg-card);
     border-radius: var(--radius);
     max-width: 600px;
     width: 100%;
     max-height: 90vh;
     overflow-y: auto;
     box-shadow: var(--shadow-lg);
+    color: var(--text);
 }
 
 .modal-header {
-    background: var(--color-primary);
+    background: linear-gradient(135deg, var(--accent) 0%, #7c3aed 100%);
     color: var(--color-white);
     padding: 1.5rem;
     display: flex;
@@ -870,15 +874,16 @@ body {
 }
 
 .modal-warning {
-    background: #fffbe6;
+    background: rgba(234, 179, 8, 0.1);
     border-left: 4px solid var(--color-warning);
     padding: 1rem;
     margin: 1rem 0;
     border-radius: var(--radius-sm);
+    color: var(--text);
 }
 
 .modal-botanican {
-    background: linear-gradient(135deg, var(--color-secondary) 0%, #a0522d 100%);
+    background: linear-gradient(135deg, #059669 0%, #10b981 100%);
     color: var(--color-white);
     padding: 1.5rem;
     border-radius: var(--radius-sm);
@@ -892,8 +897,13 @@ body {
 
 .modal-botanican .btn-primary {
     background: var(--color-white);
-    color: var(--color-secondary);
+    color: #059669;
     margin-top: 1rem;
+}
+
+.modal-botanican .btn-primary:hover {
+    background: rgba(255, 255, 255, 0.9);
+    color: #047857;
 }
 
 /* === LOADING === */
