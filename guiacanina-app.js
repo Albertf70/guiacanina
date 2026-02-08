@@ -1002,9 +1002,8 @@ async function compartirApp() {
     try {
         if (navigator.share) {
             await navigator.share({
-                title: 'GuíaCanina',
-                text: texto,
-                url: 'https://guiacanina.vercel.app'
+                title: 'GuíaCanina - Tu referencia completa para el cuidado de tu perro',
+                text: texto
             });
         } else {
             await navigator.clipboard.writeText(texto);
