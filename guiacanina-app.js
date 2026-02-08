@@ -594,7 +594,6 @@ function renderCuidadosBañoSection(breed) {
                 ${bc.cuidadoAdicional ? `<p><strong>Cuidado adicional:</strong> ${bc.cuidadoAdicional}</p>` : ''}
                 
                 <a href="${bc.link}" target="_blank" class="btn-primary">Ver Productos BotaniCan</a>
-                <button onclick="compartirProducto('${breed.nombre}')" class="btn-share" style="margin-left:0.5rem">📤 Compartir</button>
             </div>
         `;
     }
@@ -706,7 +705,7 @@ function renderBotaniCanFooter() {
                 <li>✅ Línea completa para diferentes necesidades</li>
             </ul>
             <p><strong>⚠️ Recuerda:</strong> NUNCA uses shampoo humano, jabón de trastes, o detergentes en tu perro. Estos productos causan daño severo a su piel y pueden generar costos veterinarios de miles de pesos.</p>
-            <a href="https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009" target="_blank" class="btn-primary">Visitar BotaniCan</a>
+            <a href="https://www.facebook.com/BotaniCanShampoo" target="_blank" class="btn-primary">Visitar BotaniCan Facebook</a>
         </div>
     `;
 }
@@ -961,8 +960,9 @@ https://guiacanina.vercel.app`;
 // ============================================
 
 function showHome() {
-    // Recargar página completa
-    location.reload();
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelector('.nav-btn').classList.add('active');
+    renderBreeds();
 }
 
 function showGuiaShampoos() {
@@ -990,26 +990,4 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function closeAbout() {
     document.getElementById('aboutModal').classList.add('hidden');
-}
-
-// ============================================
-// COMPARTIR APP
-// ============================================
-
-async function compartirApp() {
-    const texto = '🐕 *GuíaCanina* - Tu referencia completa para el cuidado de tu perro\n\n✅ 23 razas con información detallada\n✅ Recomendaciones BotaniCan Shampoo\n✅ Guía de productos por raza\n✅ Directorio de estéticas caninas\n\n📱 Descarga GRATIS:\nhttps://guiacanina.vercel.app';
-
-    try {
-        if (navigator.share) {
-            await navigator.share({
-                title: 'GuíaCanina - Tu referencia completa para el cuidado de tu perro',
-                text: texto
-            });
-        } else {
-            await navigator.clipboard.writeText(texto);
-            alert('📋 Link copiado al portapapeles');
-        }
-    } catch (err) {
-        console.log('Error:', err);
-    }
 }
