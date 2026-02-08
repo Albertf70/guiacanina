@@ -2488,8 +2488,7 @@ const BREEDS_DATABASE = [
         entrenamiento: "Alto (profesional requerido)"
     }
 }
-
-    ,{
+,{
     id: "poodle",
     nombre: "Poodle",
     nombresAlternativos: ["French Poodle", "Caniche", "Pudel"],
@@ -2744,6 +2743,6 @@ const BREEDS_DATABASE = [
     }
 }
 
-// Total: 22 razas completas (3 mexicanas: Chihuahua, Xoloitzcuintle, Calupoh)
+// Total: 23 razas completas (3 mexicanas: Chihuahua, Xoloitzcuintle, Calupoh + Poodle)
 
 ];
