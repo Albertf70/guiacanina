@@ -1038,6 +1038,7 @@ body {
         gap: 0.5rem;
     }
     
+    /* Fila 1: Solo Logo centrado */
     .logo-section {
         flex: 1 1 100%;
         justify-content: center;
@@ -1056,23 +1057,12 @@ body {
         font-size: 0.7rem;
     }
     
-    .header-nav {
-        flex: 1 1 100%;
-        order: 3;
-        justify-content: center;
-        gap: 0.3rem;
-    }
-    
-    .nav-btn {
-        padding: 0.5rem 0.8rem;
-        font-size: 0.85rem;
-        border-width: 1px;
-    }
-    
+    /* Fila 2: Favoritos y Compartir juntos */
     .btn-favorites {
         order: 2;
         padding: 0.5rem 0.8rem;
         font-size: 0.85rem;
+        flex: 0 0 auto;
     }
     
     .btn-share-app {
@@ -1080,6 +1070,22 @@ body {
         padding: 0.5rem 0.8rem;
         font-size: 0.85rem;
         margin-left: 0.3rem;
+        flex: 0 0 auto;
+    }
+    
+    /* Fila 3: Navegación completa */
+    .header-nav {
+        flex: 1 1 100%;
+        order: 3;
+        justify-content: space-between;
+        gap: 0.3rem;
+    }
+    
+    .nav-btn {
+        flex: 1;
+        padding: 0.5rem 0.4rem;
+        font-size: 0.75rem;
+        border-width: 1px;
     }
     
     .logo-text h1 {
