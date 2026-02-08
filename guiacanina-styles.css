@@ -1,48 +1,48 @@
 /* ========================================
-   GUÍACANINA - STYLES PROFESIONALES
-   Tema: Ámbar Dorado + Oscuro Elegante
+   GUÍACANINA - STYLES
+   Tema: Morado profesional (igual que SpeakFast)
    ======================================== */
 
-/* === VARIABLES PROFESIONALES === */
+/* === VARIABLES === */
 :root {
-    /* Fondos oscuros sofisticados */
-    --color-bg: #0a0e0f;
-    --color-bg-card: #151b1e;
-    --color-bg-elevated: #1e2528;
+    /* Colores EXACTOS de SpeakFast */
+    --bg: #0f0f1a;
+    --bg-card: #171728;
+    --bg-elevated: #1e1e35;
+    --accent: #6366f1;
+    --accent-light: #818cf8;
+    --green: #22c55e;
+    --yellow: #eab308;
+    --text: #f1f5f9;
+    --text-dim: #94a3b8;
+    --text-muted: #64748b;
+    --border: rgba(99,102,241,0.15);
+    --glow: 0 0 40px rgba(99,102,241,0.15);
     
-    /* Gradientes principales - Ámbar/Dorado */
-    --color-primary: #f59e0b;
-    --color-primary-light: #fbbf24;
-    --color-primary-dark: #d97706;
-    
-    /* Acentos */
-    --color-secondary: #ea580c;
-    --color-accent: #f97316;
-    --color-green: #10b981;
-    --color-brown: #78350f;
-    
-    /* Textos */
+    /* Colores originales */
+    --color-bg: #0f0f1a;
+    --color-bg-card: #171728;
+    --color-bg-elevated: #1e1e35;
+    --color-primary: #6366f1;
+    --color-primary-light: #818cf8;
+    --color-primary-dark: #4f46e5;
+    --color-secondary: #a78bfa;
+    --color-accent: #22c55e;
+    --color-green: #22c55e;
     --color-white: #ffffff;
-    --color-text: #f9fafb;
-    --color-text-light: #d1d5db;
-    --color-text-muted: #9ca3af;
-    
-    /* Bordes y sombras */
-    --color-border: rgba(245, 158, 11, 0.15);
+    --color-text: #f1f5f9;
+    --color-text-light: #94a3b8;
+    --color-text-muted: #64748b;
+    --color-border: rgba(99,102,241,0.15);
     --color-error: #ef4444;
-    --color-success: #10b981;
-    --color-warning: #f59e0b;
-    
-    /* Sombras profesionales */
-    --shadow-sm: 0 2px 8px rgba(245, 158, 11, 0.1);
-    --shadow-md: 0 4px 16px rgba(245, 158, 11, 0.15);
-    --shadow-lg: 0 8px 32px rgba(245, 158, 11, 0.2);
-    --glow: 0 0 40px rgba(245, 158, 11, 0.25);
-    --glow-hover: 0 12px 48px rgba(245, 158, 11, 0.35);
-    
-    --radius: 16px;
-    --radius-sm: 12px;
-    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --color-success: #22c55e;
+    --color-warning: #eab308;
+    --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
+    --shadow-md: 0 4px 8px rgba(0,0,0,0.15);
+    --shadow-lg: 0 8px 16px rgba(0,0,0,0.2);
+    --radius: 12px;
+    --radius-sm: 8px;
+    --transition: all 0.3s ease;
 }
 
 /* === RESET & BASE === */
