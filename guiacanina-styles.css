@@ -1093,3 +1093,283 @@ body {
         padding: 0.5rem;
     }
 }
+
+/* ============================================
+   NAVEGACIÓN Y COMPARTIR
+   ============================================ */
+
+.header-nav {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.nav-btn {
+    background: transparent;
+    border: 2px solid rgba(99, 102, 241, 0.2);
+    color: var(--color-text);
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.nav-btn:hover, .nav-btn.active {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: #6366f1;
+}
+
+.btn-share, .btn-share-detail {
+    background: linear-gradient(135deg, #10b981, #059669);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.btn-share:hover, .btn-share-detail:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.btn-share-sm {
+    background: transparent;
+    border: 1px solid #10b981;
+    color: #10b981;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: var(--transition);
+}
+
+.btn-share-sm:hover {
+    background: rgba(16, 185, 129, 0.1);
+}
+
+/* ============================================
+   ESTÉTICAS CANINAS
+   ============================================ */
+
+.esteticas-view, .guia-shampoos-view {
+    padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.esteticas-header, .guia-header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.esteticas-header h2, .guia-header h2 {
+    font-size: 2rem;
+    color: #6366f1;
+    margin-bottom: 0.5rem;
+}
+
+.esteticas-grid, .shampoos-grid {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.estetica-card, .shampoo-card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: 16px;
+    padding: 1.5rem;
+    transition: var(--transition);
+}
+
+.estetica-card:hover, .shampoo-card:hover {
+    box-shadow: var(--glow);
+    transform: translateY(-2px);
+}
+
+.estetica-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.estetica-header h3 {
+    font-size: 1.3rem;
+    color: var(--color-text);
+}
+
+.badge-verificado {
+    background: rgba(16, 185, 129, 0.1);
+    color: #10b981;
+    padding: 4px 12px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: 700;
+}
+
+.usa-botanican {
+    color: #10b981;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.estetica-actions, .shampoo-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+
+.btn-whatsapp, .btn-mapa {
+    flex: 1;
+    padding: 0.6rem;
+    border-radius: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.85rem;
+    transition: var(--transition);
+}
+
+.btn-whatsapp {
+    background: #25D366;
+    color: white;
+    border: none;
+}
+
+.btn-mapa {
+    background: transparent;
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.btn-whatsapp:hover {
+    background: #128C7E;
+}
+
+.btn-mapa:hover {
+    border-color: #6366f1;
+    color: #6366f1;
+}
+
+.btn-compartir {
+    background: transparent;
+    border: 1px solid #10b981;
+    color: #10b981;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.btn-compartir:hover {
+    background: rgba(16, 185, 129, 0.1);
+}
+
+/* ============================================
+   SHAMPOOS
+   ============================================ */
+
+.shampoo-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.shampoo-icono {
+    font-size: 2.5rem;
+}
+
+.shampoo-header h3 {
+    flex: 1;
+    font-size: 1.2rem;
+    color: var(--color-text);
+}
+
+.shampoo-precio {
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: #10b981;
+}
+
+.shampoo-info p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+.shampoo-info strong {
+    color: #6366f1;
+}
+
+/* ============================================
+   BANNERS
+   ============================================ */
+
+.add-estetica-banner, .profesionales-banner {
+    background: linear-gradient(135deg, #6366f1, #7c3aed);
+    color: white;
+    padding: 2rem;
+    border-radius: 16px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.add-estetica-banner h3, .profesionales-banner h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+.add-estetica-banner p, .profesionales-banner p {
+    margin: 0 0 1rem 0;
+    opacity: 0.9;
+}
+
+.btn-secondary {
+    background: white;
+    color: #6366f1;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    display: inline-block;
+    transition: var(--transition);
+}
+
+.btn-secondary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 255, 255, 0.3);
+}
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+    .header-nav {
+        gap: 0.25rem;
+    }
+    
+    .nav-btn {
+        padding: 0.4rem 0.8rem;
+        font-size: 1rem;
+    }
+    
+    .estetica-actions, .shampoo-actions {
+        flex-direction: column;
+    }
+    
+    .btn-whatsapp, .btn-mapa {
+        flex: none;
+        width: 100%;
+    }
+}
