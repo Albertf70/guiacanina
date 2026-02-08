@@ -167,7 +167,7 @@ const BREEDS_DATABASE = [
         },
         
         botanican: {
-            recomendado: "BotaniCan Cachorros o Hipoalergénico",
+            recomendado: "Shampoo Suave e Hidratante 7en1",
             porque: "Los Chihuahuas tienen piel delicada y son propensos a alergias. Por su tamaño pequeño, un shampoo suave es esencial. BotaniCan con ingredientes naturales es perfecto para no irritar su piel sensible y mantener el brillo natural de su pelaje.",
             beneficios: [
                 "pH 7.0 balanceado para piel canina sensible",
@@ -176,7 +176,7 @@ const BREEDS_DATABASE = [
                 "Olor suave natural",
                 "Ideal para baños frecuentes si es necesario"
             ],
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         
         alertasProductos: {
@@ -422,7 +422,7 @@ const BREEDS_DATABASE = [
                 ],
                 cuidadoAdicional: "Después del baño, aplicar aceite natural (coco o almendras dulces) para mantener piel hidratada y protegida",
                 frecuencia: "Cada 7-14 días",
-                link: "https://www.facebook.com/BotaniCanShampoo"
+                link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
             }
         },
         
@@ -617,7 +617,7 @@ const BREEDS_DATABASE = [
                 "Medicado: control natural de hongos/levaduras"
             ],
             frecuenciaUso: "Hipoalergénico cada 3-4 semanas, Medicado según indicación veterinaria",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         
         alertasProductos: {
@@ -789,7 +789,7 @@ const BREEDS_DATABASE = [
                 "Ideal para 3 tipos de pelaje",
                 "No irrita piel sensible"
             ],
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         
         alertasProductos: {
@@ -1084,7 +1084,7 @@ const BREEDS_DATABASE = [
                 lavaplatos: "Detergente industrial + pH 10+ + Elimina TODO = DESASTRE TOTAL"
             },
             
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         
         alertasProductos: {
@@ -1186,7 +1186,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Ideal para su pelaje largo y piel sensible a alergias. Mantiene el característico color dorado brillante.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         alertasProductos: { prohibido: ["🚫 NUNCA rapar (doble capa)", "🚫 NO shampoo humano", "🚫 NO jabón trastes"] }
     },
@@ -1225,7 +1225,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Ideal para su piel sensible y baños frecuentes si nadan mucho.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         alertasProductos: { prohibido: ["🚫 NO rapar", "🚫 NO productos humanos"] }
     },
@@ -1265,7 +1265,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Perfecto para su piel sensible a alergias y doble capa densa.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         rapadoProhibido: {
             titulo: "NUNCA RAPAR - Doble capa nórdica",
@@ -1315,7 +1315,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico + Medicado",
             porque: "Piel muy sensible con tendencia a infecciones en pliegues.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1360,7 +1360,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico + Medicado",
             porque: "Esencial para piel extremadamente sensible y problemas en pliegues.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1399,7 +1399,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Ideal para su piel sensible y pelaje denso.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1441,7 +1441,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico + Acondicionador",
             porque: "Esencial para mantener su pelo sedoso sin nudos.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1483,7 +1483,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Perfecto para su abundante doble capa y piel delicada.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         rapadoProhibido: {
             titulo: "NO rapar completamente",
@@ -1528,7 +1528,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico + Acondicionador",
             porque: "Esencial para su pelo largo propenso a enredos y piel sensible.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1568,7 +1568,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Ideal para mantener su pelaje blanco brillante sin químicos agresivos que lo amarillen.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1606,7 +1606,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Regular",
             porque: "Ideal para su pelaje corto y piel resistente.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1644,7 +1644,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Ideal para su piel sensible a alergias.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1681,7 +1681,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Ideal para su piel sensible a alergias.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1720,7 +1720,7 @@ const BREEDS_DATABASE = [
         botanican: {
             recomendado: "BotaniCan Hipoalergénico",
             porque: "Perfecto para su doble capa y piel sensible.",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     tipsEspecificos: [
@@ -1809,7 +1809,7 @@ const BREEDS_DATABASE = [
                 "Apto para piel sensible",
                 "No irrita piel que pudo haber tenido parásitos"
             ],
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         },
         
         alertasProductos: {
@@ -2163,7 +2163,7 @@ const BREEDS_DATABASE = [
                 shampooHumano: "pH incorrecto + Muy suave = ARRUINA textura del pelo duro"
             },
             frecuenciaUso: "Cada 4-6 semanas (antes de grooming profesional idealmente)",
-            link: "https://www.facebook.com/BotaniCanShampoo"
+            link: "https://botanican.ecwid.com/SHAMPOOS-BOT%C3%81NICOS-c36277009"
         }
     },
     
@@ -2297,3 +2297,88 @@ const BREEDS_DATABASE = [
 ];
 
 // Total: 21 razas completas con información detallada
+
+// ============================================
+// CALUPOH (RAZA MEXICANA #3)
+// ============================================
+
+{
+    id: "calupoh",
+    nombre: "Calupoh",
+    nombresAlternativos: ["Perro Lobo Mexicano"],
+    categoria: "mexicanas",
+    imagen: "🐺",
+    tamaño: "Grandes",
+    esPatrimonioMexicano: true,
+    
+    origen: {
+        pais: "México 🇲🇽",
+        estado: "Nacional",
+        epoca: "1999 (raza moderna)",
+        historia: "Raza mexicana moderna desarrollada desde 1999 por la UNAM mediante cruza controlada entre perros y lobos grises mexicanos. Reconocida por la FCM en 2011. Su nombre proviene del náhuatl 'calli' (casa) y 'ohtli' (camino).",
+        curiosidad: "Única raza reconocida con genética de lobo mexicano (2-5% genes de lobo)."
+    },
+    
+    pesoIdeal: {
+        macho: "25-45 kg",
+        hembra: "25-40 kg"
+    },
+    
+    esperanzaVida: "12-14 años",
+    
+    temperamento: {
+        personalidad: "Leal, inteligente, reservado, protector",
+        nivelEnergia: "Muy Alto",
+        sociabilidad: {
+            conHumanos: "Leal extremo con familia",
+            conNiños: "⚠️ Supervisión estricta",
+            conPerros: "Dominante",
+            conExtraños: "Reservado, territorial"
+        },
+        adiestramiento: "Difícil - Solo expertos",
+        ladridos: "Bajo - Aúlla como lobo",
+        caracteristicas: ["Instinto de manada fuerte", "NO para principiantes", "Muy inteligente", "Territorial"]
+    },
+    
+    alimentacion: {
+        tipoAlimento: "Premium alta proteína (35-40%)",
+        calorias: "1800-2500 cal/día",
+        comidas: {
+            cachorro: "4 veces al día",
+            adulto: "2 veces al día",
+            senior: "2 veces al día"
+        },
+        alertas: ["Prefiere carne fresca o BARF", "Evitar cereales", "Huesos carnosos buenos"]
+    },
+    
+    cuidadosBañoEstetica: {
+        tipoPelaje: "Doble capa densa, pelo semi-largo",
+        cepillado: {
+            frecuencia: "3-4 veces/semana, diario en muda",
+            herramientas: ["Slicker", "Rastrillo subpelo"]
+        },
+        baño: {
+            frecuencia: "Cada 2-3 meses"
+        },
+        botanican: {
+            recomendado: "Shampoo Verde Botánico 7en1",
+            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594",
+            porque: "Perro activo de exterior. Verde repelente ideal para protección contra parásitos y mantener pelaje denso limpio.",
+            beneficios: ["Repelente natural pulgas/garrapatas", "Antihongos", "pH balanceado", "Ingredientes naturales"]
+        }
+    },
+    
+    tipsEspecificos: [
+        "🐺 NO para principiantes",
+        "🏃 MÍNIMO 2-3 horas ejercicio diario",
+        "🏠 NO apto departamento",
+        "🍖 Dieta alta proteína animal"
+    ],
+    
+    saludPublica: {
+        requiereLicencia: true,
+        restricciones: "Requiere registro especial FCM"
+    }
+}
+
+];
