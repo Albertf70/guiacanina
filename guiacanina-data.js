@@ -2294,8 +2294,6 @@ const BREEDS_DATABASE = [
     }
 }
 
-// CALUPOH - PARA INSERTAR AL FINAL DEL ARRAY (ANTES DE ];)
-
 ,{
     id: "calupoh",
     nombre: "Calupoh",
@@ -2489,9 +2487,8 @@ const BREEDS_DATABASE = [
         aseo: "Medio",
         entrenamiento: "Alto (profesional requerido)"
     }
-}    
-    
-    
-// Total: 21 razas completas con información detallada
+}
+
+// Total: 22 razas completas (3 mexicanas: Chihuahua, Xoloitzcuintle, Calupoh)
 
 ];
