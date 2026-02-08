@@ -2294,8 +2294,6 @@ const BREEDS_DATABASE = [
     }
 }
 
-];
-
 // Total: 21 razas completas con información detallada
 
 ];
