@@ -960,11 +960,8 @@ https://guiacanina.vercel.app`;
 // ============================================
 
 function showHome() {
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelector('.nav-btn').classList.add('active');
-    currentFilter = 'all';
-    searchTerm = '';
-    renderBreeds();
+    // Recargar página completa
+    location.reload();
 }
 
 function showGuiaShampoos() {
