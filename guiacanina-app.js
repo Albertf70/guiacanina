@@ -1,3 +1,5 @@
+import BREEDS_DATABASE from './guiacanina-data.js';
+
 /**
  * GUÍACANINA - APLICACIÓN JAVASCRIPT
  * Gestión de la interfaz, búsqueda, filtros, favoritos, detalles de razas
