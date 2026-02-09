@@ -1,7 +1,6 @@
 /**
- * GUÍACANINA - BASE DE DATOS DE RAZAS
+ * GUIACANINA - BASE DE DATOS DE RAZAS
  * Información completa sobre 35 razas de perros
- * Incluye: Origen, temperamento, salud, alimentación, cuidados, BotaniCan
  */
 
 const BREEDS_DATABASE = [
@@ -15,7 +14,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "México 🇲🇽",
+        pais: "México Mexico",
         epoca: "Antigua civilización Tolteca",
         historia: "Raza MÁS ANTIGUA de América. Los Toltecas criaban el 'Techichi' (ancestro del Chihuahua). Cuando los Aztecas conquistaron a los Toltecas, refinaron la raza. Considerado sagrado y acompañante de los muertos al más allá."
     },
@@ -235,7 +234,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XIX",
         historia: "Desarrollado en granjas alemanas para cazar ratas. Versión miniatura del Schnauzer Estándar. Creado cruzando Schnauzer Estándar con razas pequeñas como Affenpinscher y Poodle Miniatura."
     },
@@ -554,7 +553,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        pais: "Escocia Escocia",
         epoca: "Siglo XIX (1860s)",
         historia: "Desarrollado en Escocia por Lord Tweedmouth cruzando Retriever amarillo con Tweed Water Spaniel (extinto). Criado para cobrar aves acuáticas en caza. Una de las razas más populares del mundo."
     },
@@ -861,7 +860,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Canadá 🇨🇦",
+        pais: "Canadá Canada",
         epoca: "Siglo XIX",
         historia: "Desarrollado en Terranova, Canadá (NO Labrador). Criado por pescadores para recuperar redes y peces. Llevado a Inglaterra donde se refinó. Perro #1 más popular del mundo durante 30+ años consecutivos."
     },
@@ -1146,7 +1145,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "China 🇨🇳",
+        pais: "China China",
         epoca: "400 a.C.",
         historia: "Criado en China como perro de compañía para la realeza. Muy valorado por emperadores chinos. Llevado a Europa en el siglo XVI."
     },
@@ -1329,7 +1328,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XV",
         historia: "Criado en Alemania para cazar tejones ('Dachs' = tejón). Su cuerpo largo y patas cortas le permiten entrar en madrigueras."
     },
@@ -1496,7 +1495,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Rusia/Siberia 🇷🇺",
+        pais: "Rusia/Siberia Rusia",
         epoca: "3000 años atrás",
         historia: "Criado por el pueblo Chukchi en Siberia para tirar trineos en condiciones extremas. Increíble resistencia y adaptación al frío."
     },
@@ -1695,7 +1694,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XIX (1899)",
         historia: "Desarrollado por Max von Stephanitz para pastoreo de ovejas. Raza más versátil: policía, militar, búsqueda y rescate, perro de servicio. Raza #2 más popular del mundo."
     },
@@ -1942,7 +1941,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Francia 🇫🇷",
+        pais: "Francia Francia",
         epoca: "Siglo XIX",
         historia: "Descendiente del Bulldog Inglés miniaturizado. Llevado a Francia por trabajadores ingleses, donde se popularizó enormemente. Raza de compañía perfecta."
     },
@@ -2176,7 +2175,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas",
     
     origen: {
-        pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        pais: "Inglaterra Inglaterra",
         epoca: "Siglo XIII",
         historia: "Originalmente criado para 'bull-baiting' (pelea con toros). Cuando se prohibió en 1835, se crió como perro de compañía. Símbolo nacional de Inglaterra."
     },
@@ -2434,7 +2433,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas",
     
     origen: {
-        pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        pais: "Inglaterra Inglaterra",
         epoca: "Siglo XIV",
         historia: "Criado en Inglaterra para cazar liebres en jaurías. Perro rastreador excepcional. Popularizado mundialmente como Snoopy de Peanuts."
     },
@@ -2621,7 +2620,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        pais: "Inglaterra Inglaterra",
         epoca: "Siglo XIX",
         historia: "Criado en Yorkshire, Inglaterra para cazar ratas en minas y fábricas textiles. Perro de trabajadores que se convirtió en perro de compañía de alta sociedad."
     },
@@ -2849,7 +2848,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XVIII",
         historia: "Descendiente del Spitz Alemán de Pomerania. Popularizado por la Reina Victoria de Inglaterra quien los crió en tamaño miniatura. Originalmente pesaban 13-14 kg, ahora 2-3 kg."
     },
@@ -3074,7 +3073,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "China/Tíbet 🇨🇳",
+        pais: "China/Tíbet China",
         epoca: "Antigua China (618 d.C.)",
         historia: "Criado en palacios imperiales chinos como perro de compañía para la realeza. 'Shih Tzu' significa 'Perro León'. Raza sagrada, casi se extingue después de la Revolución Comunista China."
     },
@@ -3321,7 +3320,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Malta 🇲🇹",
+        pais: "Malta Malta",
         epoca: "Antigua civilización (3000 años)",
         historia: "Una de las razas más antiguas del mundo. Criado en la isla de Malta como perro de compañía para la aristocracia. Favorito de nobles romanos y griegos."
     },
@@ -3562,7 +3561,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Imperio Romano",
         historia: "Descendiente de mastines romanos. Usado en Rottweil, Alemania para arrear ganado y tirar carretas de carniceros. Perro de trabajo versátil: policía, militar, búsqueda y rescate."
     },
@@ -3777,7 +3776,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XIX",
         historia: "Desarrollado en Alemania cruzando Bullenbeisser (extinto) con Bulldog. Usado para caza mayor, luego como perro de guerra. Nombre 'Boxer' por su tendencia a usar patas delanteras al jugar."
     },
@@ -3980,7 +3979,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Croacia 🇭🇷",
+        pais: "Croacia Croacia",
         epoca: "Antigua (referencias desde 1600s)",
         historia: "Origen en Dalmacia, Croacia. Usado como perro guardián de carruajes, corriendo junto a caballos. Popularizado como mascota de bomberos en Estados Unidos. Famoso por película '101 Dálmatas'."
     },
@@ -4219,7 +4218,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas-Grandes",
     
     origen: {
-        pais: "Escocia/Inglaterra 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+        pais: "Escocia/Inglaterra Escocia",
         epoca: "Siglo XIX",
         historia: "Desarrollado en la frontera escocesa-inglesa para pastoreo de ovejas. Considerado el MEJOR perro pastor del mundo. Nombre 'Border' por región fronteriza."
     },
@@ -4470,7 +4469,7 @@ const BREEDS_DATABASE = [
     tamaño: "Variable (Pequeñas a Grandes)",
     
     origen: {
-        pais: "México 🇲🇽",
+        pais: "México Mexico",
         epoca: "Siglos de mestizaje natural",
         historia: "Perros criollos son resultado de siglos de mestizaje natural sin intervención humana selectiva. Representan la mayoría de perros en México. Extremadamente adaptables y resistentes."
     },
@@ -4692,7 +4691,7 @@ const BREEDS_DATABASE = [
     tamaño: "Variable (Toy, Miniatura, Estándar)",
     
     origen: {
-        pais: "Francia 🇫🇷 / Alemania 🇩🇪",
+        pais: "Francia Francia / Alemania Alemania",
         epoca: "Siglo XV",
         historia: "A pesar del nombre 'French', origen debatido entre Francia y Alemania. Desarrollado como perro cobrador de agua. 'Poodle' viene del alemán 'Pudel' (chapotear en agua). Corte elegante originalmente funcional para natación."
     },
@@ -4997,7 +4996,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "México 🇲🇽",
+        pais: "México Mexico",
         epoca: "1999 (raza moderna)",
         historia: "Raza MEXICANA desarrollada cruzando perros con lobo gris mexicano (Canis lupus baileyi). Creada por la Universidad Nacional Autónoma de México (UNAM) para preservar genética del lobo mexicano en peligro de extinción. Primera y ÚNICA raza reconocida 100% mexicana."
     },
@@ -5206,7 +5205,7 @@ const BREEDS_DATABASE = [
     },
     
     orgulloMexicano: {
-        titulo: "🇲🇽 ORGULLO NACIONAL MEXICANO",
+        titulo: "Mexico ORGULLO NACIONAL MEXICANO",
         importancia: "El Calupoh es la PRIMERA y ÚNICA raza canina reconocida 100% mexicana. Representa esfuerzo de conservación del lobo mexicano (en peligro crítico de extinción). Adquirir Calupoh es responsabilidad de preservar patrimonio genético mexicano."
     },
     
@@ -5232,7 +5231,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas",
     
     origen: {
-        pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        pais: "Inglaterra Inglaterra",
         epoca: "Siglo XIX (1850s)",
         historia: "Desarrollado en Inglaterra cruzando Bulldog con terriers para peleas de perros y ratas. James Hinks refinó la raza en 1860s creando el 'White Cavalier' - Bull Terrier blanco. Después de prohibición de peleas, se convirtió en perro de compañía."
     },
@@ -5500,7 +5499,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+        pais: "Inglaterra Inglaterra",
         epoca: "Siglo XVIII",
         historia: "Desarrollado en Inglaterra para pastoreo y arreo de ovejas y ganado. Nombre 'Bobtail' por práctica de cortar cola (identificación de perros de trabajo que no pagaban impuestos). Icónico por aparecer como logotipo de pinturas Dulux."
     },
@@ -5818,7 +5817,7 @@ const BREEDS_DATABASE = [
     tamaño: "Variable (Toy, Miniatura, Estándar)",
     
     origen: {
-        pais: "México 🇲🇽",
+        pais: "México Mexico",
         epoca: "Más de 3,000 años",
         historia: "Raza MÁS ANTIGUA de América y una de las más antiguas del mundo. Considerada sagrada por aztecas, mayas y toltecas. Nombre significa 'perro del dios Xólotl'. Se creía que guiaban almas al Mictlán (inframundo). Casi se extingue en 1950s, rescatada por criadores mexicanos. Patrimonio cultural de México."
     },
@@ -6118,7 +6117,7 @@ const BREEDS_DATABASE = [
     },
     
     orgulloMexicano: {
-        titulo: "🇲🇽 PATRIMONIO CULTURAL DE MÉXICO",
+        titulo: "Mexico PATRIMONIO CULTURAL DE MÉXICO",
         importancia: [
             "Raza MÁS ANTIGUA de América (3,000+ años)",
             "Considerada SAGRADA por aztecas, mayas, toltecas",
@@ -6153,7 +6152,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Bélgica 🇧🇪",
+        pais: "Bélgica Belgica",
         epoca: "Siglo XIX (1890s)",
         historia: "Desarrollado en Malinas, Bélgica para pastoreo. Una de las 4 variedades de Pastor Belga (Malinois, Tervueren, Groenendael, Laekenois). Preferido MUNDIALMENTE por fuerzas policiales, militares y unidades élite. Navy SEALs lo usan."
     },
@@ -6347,7 +6346,7 @@ const BREEDS_DATABASE = [
     },
     
     usoEnMexico: {
-        titulo: "🇲🇽 MALINOIS EN MÉXICO",
+        titulo: "Mexico MALINOIS EN MÉXICO",
         popularidad: [
             "Usado por fuerzas especiales mexicanas",
             "Policía Federal",
@@ -6379,7 +6378,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas",
     
     origen: {
-        pais: "Estados Unidos 🇺🇸",
+        pais: "Estados Unidos Estados Unidos",
         epoca: "Siglo XIX",
         historia: "Desarrollado en Estados Unidos cruzando bulldogs y terriers ingleses. Originalmente para peleas de perros (ahora ilegales). Después se usó como perro de granja, guardián, compañía. Raza extremadamente CONTROVERSIA por estigma y legislación."
     },
@@ -6647,7 +6646,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XIX (1890s)",
         historia: "Desarrollado por Karl Friedrich Louis Dobermann, recaudador de impuestos alemán que necesitaba perro guardián. Cruzó Rottweiler, Pastor Alemán, Pinscher Alemán, y otros. Perro de protección personal por excelencia."
     },
@@ -6866,7 +6865,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas-Medianas",
     
     origen: {
-        pais: "Estados Unidos 🇺🇸 (variedad americana)",
+        pais: "Estados Unidos Estados Unidos (variedad americana)",
         epoca: "Siglo XIX",
         historia: "Desarrollado en Estados Unidos del Cocker Spaniel Inglés. Criado para cazar aves (especialmente becadas/woodcock - de ahí 'Cocker'). Dividido en dos razas: Inglés (más grande) y Americano (más pequeño, popular en México)."
     },
@@ -7130,7 +7129,7 @@ const BREEDS_DATABASE = [
     tamaño: "Gigantes",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XVI",
         historia: "A pesar del nombre 'Danés', es raza alemana. Desarrollado para caza de jabalíes. Llamado 'Dogo Alemán' en Alemania. Una de las razas más GRANDES del mundo. Récord mundial: Zeus (112 cm altura)."
     },
@@ -7365,7 +7364,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Japón 🇯🇵",
+        pais: "Japón Japon",
         epoca: "Siglo XVII",
         historia: "Raza antigua de Japón, originaria de la prefectura de Akita. Criado para caza de osos, jabalíes y ciervos. Símbolo nacional de Japón. Famoso por Hachiko, el Akita que esperó a su dueño fallecido durante 9 años en estación de tren."
     },
@@ -7619,7 +7618,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas",
     
     origen: {
-        pais: "China 🇨🇳",
+        pais: "China China",
         epoca: "Antigua China (2000+ años)",
         historia: "Raza ANTIGUA china (2000+ años). Usado como guardián de templos, caza, tiro de trineos. Lengua AZUL-NEGRA única. Apariencia de león. Casi extinto en China, preservado en Occidente."
     },
@@ -7883,7 +7882,7 @@ const BREEDS_DATABASE = [
     tamaño: "Medianas",
     
     origen: {
-        pais: "Estados Unidos 🇺🇸 (NO Australia)",
+        pais: "Estados Unidos Estados Unidos (NO Australia)",
         epoca: "Siglo XIX",
         historia: "A pesar del nombre, desarrollado en ESTADOS UNIDOS, no Australia. Criado para pastoreo en ranchos del oeste americano. Nombre viene de ovejas australianas que pastoreaban. Raza de pastoreo versátil y enérgica."
     },
@@ -8107,7 +8106,7 @@ const BREEDS_DATABASE = [
     tamaño: "Gigantes",
     
     origen: {
-        pais: "Suiza 🇨🇭",
+        pais: "Suiza Suiza",
         epoca: "Siglo XVII",
         historia: "Desarrollado por monjes en Hospicio del Gran San Bernardo en Alpes suizos para rescate de viajeros en la nieve. Famosos por rescatar más de 2,000 personas. Beethoven (película) hizo famosa la raza mundialmente."
     },
@@ -8374,7 +8373,7 @@ const BREEDS_DATABASE = [
     tamaño: "Grandes",
     
     origen: {
-        pais: "Alemania 🇩🇪",
+        pais: "Alemania Alemania",
         epoca: "Siglo XIX",
         historia: "Desarrollado en corte de Weimar, Alemania para caza mayor (osos, ciervos, jabalíes). Perro de nobleza alemana. Llamado 'Grey Ghost' (Fantasma Gris) por color distintivo y forma de moverse silenciosamente. Raza versátil de caza."
     },
@@ -8590,6 +8589,6 @@ const BREEDS_DATABASE = [
 },
 
 
-]; // Total: 35 razas completas
+];
 
 export default BREEDS_DATABASE;
