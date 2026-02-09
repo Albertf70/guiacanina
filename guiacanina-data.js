@@ -1,15 +1,10 @@
 /**
  * GUÍACANINA - BASE DE DATOS DE RAZAS
  * Información completa sobre 35 razas de perros
- * Incluye: Origen, temperamento, salud, alimentación, cuidados, BotaniCan, salud pública
+ * Incluye: Origen, temperamento, salud, alimentación, cuidados, BotaniCan
  */
 
 const BREEDS_DATABASE = [
-
-// ============================================
-// RAZAS MEXICANAS (Patrimonio Cultural)
-// ============================================
-
 
 {
     id: "chihuahua",
@@ -5210,7 +5205,7 @@ const BREEDS_DATABASE = [
         consideracion: "El Calupoh es MAGNÍFICO para el dueño correcto. Para dueño equivocado, es situación PELIGROSA. Evalúa BRUTALMENTE tu capacidad antes de considerar esta raza."
     },
     
-    orgullo Mexicano: {
+    orgulloMexicano: {
         titulo: "🇲🇽 ORGULLO NACIONAL MEXICANO",
         importancia: "El Calupoh es la PRIMERA y ÚNICA raza canina reconocida 100% mexicana. Representa esfuerzo de conservación del lobo mexicano (en peligro crítico de extinción). Adquirir Calupoh es responsabilidad de preservar patrimonio genético mexicano."
     },
@@ -8595,6 +8590,6 @@ const BREEDS_DATABASE = [
 },
 
 
-// Total: 35 razas completas
+]; // Total: 35 razas completas
 
-];
+export default BREEDS_DATABASE;
