@@ -582,7 +582,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "China",
+        pais: "China 🇨🇳",
         epoca: "400 a.C.",
         historia: "Criado como perro de compañía para la realeza china. Su nombre 'Pug' viene del latín 'pugnus' (puño) por la forma de su cara. En Europa se llamó 'Carlino' en honor al actor italiano Carlino que usaba máscara similar. Llegó a Europa en el siglo XVI con comerciantes holandeses y se volvió favorito de la aristocracia."
     },
@@ -616,6 +616,40 @@ const BREEDS_DATABASE = [
         ]
     },
     
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: [
         "Síndrome braquicéfalo (cara chata) - Dificultad respiratoria SEVERA",
         "Estenosis de narinas (fosas nasales estrechas)",
@@ -806,7 +840,7 @@ const BREEDS_DATABASE = [
     tamaño: "Pequeñas",
     
     origen: {
-        pais: "Alemania",
+        pais: "Alemania 🇩🇪",
         epoca: "Siglo XV",
         historia: "Criado específicamente para cazar tejones ('Dachs' = tejón en alemán). Su cuerpo largo y patas cortas le permitían entrar en madrigueras. Es valiente y tenaz, características necesarias para enfrentar tejones bajo tierra."
     },
@@ -839,6 +873,40 @@ const BREEDS_DATABASE = [
         ]
     },
     
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: [
         "Enfermedad del disco intervertebral (IVDD) - PRINCIPAL PREOCUPACIÓN",
         "Problemas de columna por estructura alargada",
@@ -1000,6 +1068,40 @@ const BREEDS_DATABASE = [
         ]
     },
     
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: [
         "Displasia de cadera",
         "Cataratas juveniles",
@@ -1288,7 +1390,7 @@ const BREEDS_DATABASE = [
     categoria: "grandes",
     imagen: "🦮",
     tamaño: "Grandes",
-    origen: { pais: "Escocia", historia: "Criado en siglo XIX para cobrar aves de caza en terreno difícil" },
+    origen: { pais: "Escocia 🏴󠁧󠁢󠁳󠁣󠁴󠁿", historia: "Criado en siglo XIX para cobrar aves de caza en terreno difícil" },
     pesoIdeal: { macho: "29-34 kg", hembra: "25-29 kg" },
     esperanzaVida: "10-12 años",
     temperamento: {
@@ -1297,6 +1399,55 @@ const BREEDS_DATABASE = [
         sociabilidad: { conHumanos: "Excelente", conNiños: "Excelente", conPerros: "Muy buena" },
         ladridos: "Moderado"
     },
+        
+        
+    alimentacion: {
+        tipoAlimento: "Premium balanceado para su tamaño",
+        comidas: {
+            cachorro: "3-4 veces al día",
+            adulto: "2 veces al día",
+            senior: "2 veces al día (porciones ajustadas)"
+        },
+        alertas: [
+            "Control de peso",
+            "Agua fresca siempre",
+            "Evitar sobrealimentación"
+        ]
+    },
+
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Displasia de cadera", "Displasia de codo", "Cataratas", "Problemas cardíacos", "Cáncer (alta incidencia)"],
     saludComun: ["Obesidad", "Problemas de piel/oído", "Alergias"],
     cuidadosBañoEstetica: {
@@ -1537,7 +1688,7 @@ const BREEDS_DATABASE = [
         "✅ Cepillado diario obligatorio"
     ],
     alertasCriticas: ["🚨 Bultos o masas = VET inmediato (alta incidencia cáncer)", "⚠️ Control de peso estricto"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", veterinario: "Alto (problemas genéticos comunes)" }
 },
 
@@ -1556,6 +1707,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Muy Alta",
         sociabilidad: { conHumanos: "Excelente", conNiños: "Excelente", conPerros: "Excelente" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Displasia de cadera/codo", "Obesidad genética", "Atrofia progresiva retina"],
     saludComun: ["OBESIDAD (problema #1)", "Problemas articulares", "Oído (aman agua)"],
     cuidadosBañoEstetica: {
@@ -1644,7 +1829,7 @@ const BREEDS_DATABASE = [
         "✅ Secar orejas después de nadar"
     ],
     alertasCriticas: ["⚠️ Obesidad = Mayor problema de la raza", "🚨 Cojera = Displasia"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", alimentacion: "Alta (come mucho)" }
 },
 
@@ -1655,7 +1840,7 @@ const BREEDS_DATABASE = [
     categoria: "grandes",
     imagen: "🐕‍🦺",
     tamaño: "Grandes",
-    origen: { pais: "Alemania", historia: "Criado para pastoreo y trabajo policial/militar" },
+    origen: { pais: "Alemania 🇩🇪", historia: "Criado para pastoreo y trabajo policial/militar" },
     pesoIdeal: { macho: "30-40 kg", hembra: "22-32 kg" },
     esperanzaVida: "9-13 años",
     temperamento: {
@@ -1664,6 +1849,55 @@ const BREEDS_DATABASE = [
         sociabilidad: { conHumanos: "Leal a familia", conNiños: "Buena con socialización", conPerros: "Variable" },
         adiestramiento: "Excelente - Muy inteligente"
     },
+        
+        
+    alimentacion: {
+        tipoAlimento: "Premium balanceado para su tamaño",
+        comidas: {
+            cachorro: "3-4 veces al día",
+            adulto: "2 veces al día",
+            senior: "2 veces al día (porciones ajustadas)"
+        },
+        alertas: [
+            "Control de peso",
+            "Agua fresca siempre",
+            "Evitar sobrealimentación"
+        ]
+    },
+
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Displasia de cadera (MUY común)", "Mielopatía degenerativa", "Displasia de codo", "Hinchazón gástrica"],
     saludComun: ["Displasia de cadera", "Problemas digestivos", "Alergias de piel"],
     cuidadosBañoEstetica: {
@@ -1671,10 +1905,46 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "3-4 veces/semana", temporadaMuda: "Diario (muda MUCHO)" }},
         baño: { frecuencia: "Cada 6-8 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Perfecto para su piel sensible a alergias y doble capa densa.",
-            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+    recomendaciones: [
+        {
+            producto: "Shampoo Verde Botánico 7en1",
+            prioridad: "Principal",
+            porque: "El Pastor Alemán tiene doble capa MUY densa que requiere limpieza profunda sin dañar. Como perro de trabajo muy activo (policía, militar, pastoreo), necesita protección antiparasitaria. El Verde limpia a fondo, repele pulgas/garrapatas por 14 días, mantiene su pelaje fuerte y es ideal para su vida laboral intensa.",
+            beneficios: [
+                "Limpieza profunda doble capa densa",
+                "Protección antiparasitaria 14 días",
+                "Mantiene textura y fuerza del pelo",
+                "Antibacterial + Antifúngico",
+                "Ideal para perros de trabajo",
+                "No elimina aceites protectores"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594",
+            uso: "Cada 6-8 semanas"
         },
+        {
+            producto: "Shampoo Cero Nudos 2en1",
+            prioridad: "Complementario",
+            porque: "Durante época de muda intensa (2 veces al año), el acondicionador ayuda MUCHO a remover el subpelo muerto y facilita el cepillado.",
+            beneficios: [
+                "Facilita remoción de subpelo muerto",
+                "Reduce tiempo de cepillado en muda",
+                "Previene nudos"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799",
+            uso: "Usar específicamente en temporada de muda (primavera y otoño)"
+        }
+    ],
+    
+    alertaParasitos: {
+        titulo: "⚠️ Pastor Alemán = Perro de trabajo - Alta exposición",
+        descripcion: "Perros de trabajo muy activos que pasan mucho tiempo en exteriores, campos, bosques. Alta exposición a garrapatas, pulgas y ácaros.",
+        recomendacion: {
+            producto: "Shampoo Verde Botánico 7en1 - YA RECOMENDADO",
+            porque: "El Verde ya incluye protección antiparasitaria esencial para perros de trabajo.",
+            protocolo: "Baño regular cada 6-8 semanas mantiene protección. Revisar pelaje después de trabajo en campo."
+        }
+    }
+    },
         rapadoProhibido: {
             titulo: "NUNCA RAPAR - Doble capa nórdica",
             mitoMortal: "Rapar en verano es DAÑINO",
@@ -1689,7 +1959,7 @@ const BREEDS_DATABASE = [
         "🚫 NUNCA rapar pelaje"
     ],
     alertasCriticas: ["🚨 Hinchazón abdominal repentina = EMERGENCIA (torsión gástrica)", "⚠️ Cojera = Displasia"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", veterinario: "Alto (problemas genéticos)" }
 },
 
@@ -1700,7 +1970,7 @@ const BREEDS_DATABASE = [
     categoria: "pequeñas",
     imagen: "🐕",
     tamaño: "Pequeñas",
-    origen: { pais: "Francia" },
+    origen: { pais: "Francia 🇫🇷" },
     pesoIdeal: { adulto: "8-14 kg" },
     esperanzaVida: "10-12 años",
     temperamento: {
@@ -1708,6 +1978,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Baja",
         sociabilidad: { conHumanos: "Excelente", conNiños: "Excelente", conPerros: "Buena" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Síndrome braquicéfalo SEVERO", "Problemas respiratorios", "Problemas de columna", "Problemas de parto (cesárea común)"],
     saludComun: ["Dificultad respiratoria", "Golpe de calor", "Alergias de piel", "Infecciones en pliegues"],
     cuidadosBañoEstetica: {
@@ -1721,10 +2025,55 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 3-4 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + Medicado",
-            porque: "Piel muy sensible con tendencia a infecciones en pliegues.",
-            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+    recomendaciones: [
+        {
+            producto: "Shampoo Suave e Hidratante 7en1",
+            prioridad: "Principal",
+            porque: "El Bulldog Francés tiene piel MUY sensible, pliegues faciales y es extremadamente propenso a alergias y dermatitis. Este shampoo hipoalergénico limpia los pliegues sin irritar, hidrata profundamente y previene dermatitis. Calma la comezón común en esta raza.",
+            beneficios: [
+                "Hipoalergénico para piel ultra sensible",
+                "Limpia pliegues suavemente",
+                "Reduce alergias desde 1ra aplicación",
+                "Hidratación profunda",
+                "Calma comezón",
+                "No irrita ojos ni pliegues"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396",
+            uso: "Cada 3-4 semanas + limpieza diaria de pliegues"
         }
+    ],
+    
+    alertaProblemasPiel: {
+        titulo: "🚨 BULLDOG FRANCÉS = RAZA #1 EN PROBLEMAS DE PIEL",
+        estadistica: "80%+ de Bulldogs Franceses tendrán problemas de piel en su vida",
+        
+        sintomasComunes: [
+            "Rascado obsesivo",
+            "Piel roja e inflamada",
+            "Lamido constante de patas",
+            "Mal olor en pliegues y piel",
+            "Hot spots (parches rojos húmedos)",
+            "Infecciones de oído recurrentes",
+            "Caída de pelo en parches"
+        ],
+        
+        problemasComunes: {
+            atopica: "Dermatitis Atópica - ALTÍSIMA prevalencia en Frenchies",
+            pliegues: "Dermatitis en pliegues - Humedad + bacterias",
+            pioderma: "Pioderma (infección bacteriana) - Común y recurrente",
+            levaduras: "Infecciones por levaduras - Olor característico",
+            hotspots: "Hot Spots - Aparecen rápidamente"
+        },
+        
+        solucion: {
+            producto: "Kit Botánico (Verde + Suave)",
+            porque: "Tratamiento ESENCIAL para Bulldogs Franceses con problemas de piel. Verde desinfecta, elimina bacterias/hongos y cicatriza. Suave hidrata profundamente y calma comezón inmediata. Miles de Frenchies han mejorado con este protocolo.",
+            link: "https://botanican.ecwid.com/Kit-para-Casos-Leves-a-Severos-1-Litro-c-u-p351400867",
+            protocolo: "1º Verde (baño completo, enfoque en zonas afectadas) + 2º Suave (solo zonas irritadas, masajear). Cada 2-3 días en casos severos, semanal en casos leves.",
+            critico: "⚠️ IMPORTANTE: Limpieza diaria de pliegues faciales es OBLIGATORIA. Secar completamente después de cada baño."
+        }
+    }
+    }
     },
     tipsEspecificos: [
         "🌡️ NUNCA ejercicio en calor",
@@ -1734,7 +2083,7 @@ const BREEDS_DATABASE = [
         "✅ Arnés (no collar)"
     ],
     alertasCriticas: ["🚨 Jadeo extremo + encías azules = EMERGENCIA", "⚠️ NO soporta calor ni frío extremos"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Muy Alto", veterinario: "Muy Alto (muchos problemas)" }
 },
 
@@ -1745,7 +2094,7 @@ const BREEDS_DATABASE = [
     categoria: "medianas",
     imagen: "🐕",
     tamaño: "Medianas",
-    origen: { pais: "Inglaterra" },
+    origen: { pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿" },
     pesoIdeal: { macho: "23-25 kg", hembra: "18-23 kg" },
     esperanzaVida: "8-10 años",
     temperamento: {
@@ -1753,6 +2102,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Muy Baja",
         sociabilidad: { conHumanos: "Excelente", conNiños: "Excelente" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Síndrome braquicéfalo EXTREMO", "Displasia de cadera", "Problemas cardíacos", "Dermatitis"],
     saludComun: ["Problemas respiratorios SEVEROS", "Golpe de calor fácil", "Infecciones en pliegues", "Obesidad"],
     cuidadosBañoEstetica: {
@@ -1766,10 +2149,54 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 3-4 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico + Medicado",
-            porque: "Esencial para piel extremadamente sensible y problemas en pliegues.",
-            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+    recomendaciones: [
+        {
+            producto: "Shampoo Suave e Hidratante 7en1",
+            prioridad: "Principal",
+            porque: "El Bulldog Inglés tiene pliegues PROFUNDOS en todo el cuerpo (no solo cara) y piel extremadamente sensible. Este shampoo limpia suavemente todos los pliegues (faciales, cuello, cola, cuerpo), previene infecciones fúngicas severas y reduce el mal olor intenso. ESENCIAL para su cuidado diario.",
+            beneficios: [
+                "Limpia pliegues profundos",
+                "Previene infecciones fúngicas",
+                "Reduce mal olor intenso",
+                "Hidrata piel en pliegues",
+                "Hipoalergénico",
+                "Suave para piel muy sensible"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Suave-e-Hidratante-Bot%C3%A1nico-Piel-Sensible-y-M%C3%A1s-7en1-Presentaci%C3%B3n-de-Litro-p94305396",
+            uso: "Cada 3 semanas + limpieza diaria OBLIGATORIA de TODOS los pliegues"
         }
+    ],
+    
+    alertaProblemasPiel: {
+        titulo: "🚨 BULLDOG INGLÉS = MÚLTIPLES PLIEGUES = ALTO RIESGO",
+        estadistica: "Los pliegues en todo el cuerpo requieren atención constante",
+        
+        sintomasComunes: [
+            "Mal olor INTENSO en pliegues",
+            "Pliegues rojos o con secreción",
+            "Rascado de cara y cuerpo",
+            "Piel oscura en pliegues (hiperpigmentación)",
+            "Costras o piel húmeda en pliegues",
+            "Hot spots en pliegues de cola"
+        ],
+        
+        problemasComunes: {
+            pliegues: "Dermatitis en pliegues (faciales, cuello, cola, cuerpo)",
+            pioderma: "Pioderma en pliegues - Infección bacteriana severa",
+            levaduras: "Infecciones por levaduras - Olor a 'queso'",
+            hotspots: "Hot Spots - Especialmente en pliegue de cola",
+            atopica: "Dermatitis Atópica - Común en la raza"
+        },
+        
+        solucion: {
+            producto: "Kit Botánico (Verde + Suave)",
+            porque: "ESENCIAL para Bulldogs con infecciones en pliegues. Verde desinfecta profundamente cada pliegue, elimina bacterias/hongos. Suave hidrata y calma. Protocolo específico para pliegues profundos.",
+            link: "https://botanican.ecwid.com/Kit-para-Casos-Leves-a-Severos-1-Litro-c-u-p351400867",
+            protocolo: "1º Verde (limpiar CADA pliegue con cuidado, tallar suavemente) + 2º Suave (aplicar en pliegues irritados). SECAR MUY MUY BIEN cada pliegue con toalla limpia. Cada 2-3 días hasta control, luego semanal.",
+            critico: "⚠️ CRÍTICO: Limpieza y secado diario de pliegues faciales, cuello y cola es OBLIGATORIA. Sin esto, el baño solo NO funciona."
+        }
+    }
+    }
     },
     tipsEspecificos: [
         "🌡️ EXTREMA sensibilidad al calor",
@@ -1779,7 +2206,7 @@ const BREEDS_DATABASE = [
         "✅ Control de peso estricto"
     ],
     alertasCriticas: ["🚨 Problemas respiratorios = Posible cirugía necesaria", "🚨 Golpe de calor muy fácil"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Muy Alto", veterinario: "Extremadamente Alto" }
 },
 
@@ -1789,7 +2216,7 @@ const BREEDS_DATABASE = [
     categoria: "medianas",
     imagen: "🐕",
     tamaño: "Medianas",
-    origen: { pais: "Inglaterra" },
+    origen: { pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿" },
     pesoIdeal: { adulto: "9-11 kg (33cm) o 13-16 kg (38cm)" },
     esperanzaVida: "12-15 años",
     temperamento: {
@@ -1798,6 +2225,40 @@ const BREEDS_DATABASE = [
         sociabilidad: { conHumanos: "Excelente", conNiños: "Excelente", conPerros: "Excelente" },
         ladridos: "Alto - Aúlla"
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Epilepsia", "Hipotiroidismo", "Luxación de rótula", "Problemas de disco"],
     saludComun: ["Obesidad (ama comer)", "Infecciones de oído", "Alergias"],
     cuidadosBañoEstetica: {
@@ -1840,7 +2301,7 @@ const BREEDS_DATABASE = [
         "⚠️ Control de comida (comerá todo)"
     ],
     alertasCriticas: ["⚠️ Obesidad = Problema principal", "✅ Microchip obligatorio (escapa fácil)"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Medio" }
 },
 
@@ -1851,7 +2312,7 @@ const BREEDS_DATABASE = [
     categoria: "pequeñas",
     imagen: "🐕",
     tamaño: "Pequeñas",
-    origen: { pais: "Inglaterra" },
+    origen: { pais: "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿" },
     pesoIdeal: { adulto: "2-3.5 kg" },
     esperanzaVida: "13-16 años",
     temperamento: {
@@ -1859,6 +2320,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Media-Alta",
         sociabilidad: { conNiños: "⚠️ NO recomendado (muy frágil)" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Luxación de rótula", "Colapso traqueal", "Problemas dentales", "Hipoglucemia"],
     saludComun: ["Problemas dentales SEVEROS", "Luxación de rótula", "Sensibilidad digestiva"],
     cuidadosBañoEstetica: {
@@ -1909,7 +2404,7 @@ const BREEDS_DATABASE = [
         "🧥 Suéter en invierno"
     ],
     alertasCriticas: ["🚨 Tos seca persistente = Colapso traqueal", "⚠️ Si no puedes cepillar diario = Optar por corte corto"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", aseo: "Alto (cepillado diario + peluquería frecuente)" }
 },
 
@@ -1928,6 +2423,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Alta",
         ladridos: "Muy Alto"
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Luxación de rótula", "Colapso traqueal", "Problemas dentales", "Alopecia X"],
     saludComun: ["Problemas dentales", "Luxación de rótula", "Pérdida de pelo (Alopecia X)"],
     cuidadosBañoEstetica: {
@@ -1967,7 +2496,7 @@ const BREEDS_DATABASE = [
         "⚠️ NO rapar (riesgo Alopecia X)"
     ],
     alertasCriticas: ["⚠️ Pérdida de pelo anormal = VET (Alopecia X)"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Medio-Alto" }
 },
 
@@ -1985,6 +2514,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Baja-Media",
         sociabilidad: { conHumanos: "Excelente", conNiños: "Buena", conPerros: "Buena" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Problemas respiratorios (cara chata)", "Problemas oculares", "Luxación de rótula", "Problemas dentales"],
     saludComun: ["Infecciones de oído", "Problemas oculares", "Alergias de piel"],
     cuidadosBañoEstetica: {
@@ -2050,7 +2613,7 @@ const BREEDS_DATABASE = [
         "⚠️ Si no puedes cepillar diario = Corte 'cachorro' corto"
     ],
     alertasCriticas: ["⚠️ Ojos rojos/llorosos = Úlcera corneal posible", "🚨 Si no cepillas diario = Sufrimiento del perro"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Medio-Alto", aseo: "Alto" }
 },
 
@@ -2060,7 +2623,7 @@ const BREEDS_DATABASE = [
     categoria: "pequeñas",
     imagen: "🐕",
     tamaño: "Pequeñas",
-    origen: { pais: "Malta/Italia" },
+    origen: { pais: "Malta 🇲🇹/Italia" },
     pesoIdeal: { adulto: "3-4 kg" },
     esperanzaVida: "12-15 años",
     temperamento: {
@@ -2068,6 +2631,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Media",
         sociabilidad: { conHumanos: "Excelente", conNiños: "Buena con supervisión" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Luxación de rótula", "Problemas dentales", "Shaker syndrome", "Problemas oculares"],
     saludComun: ["Problemas dentales SEVEROS", "Manchas de lágrimas", "Alergias"],
     cuidadosBañoEstetica: {
@@ -2078,10 +2675,36 @@ const BREEDS_DATABASE = [
         },
         baño: { frecuencia: "Cada 1-2 semanas (mantener blanco)" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para mantener su pelaje blanco brillante sin químicos agresivos que lo amarillen.",
-            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+    recomendaciones: [
+        {
+            producto: "Shampoo para Pelo Blanco",
+            prioridad: "Principal",
+            porque: "El Maltés tiene pelo largo y completamente BLANCO que requiere cuidado especial. Este shampoo mantiene la blancura natural inmaculada, elimina manchas de lágrimas y orina (común en Maltés), y da brillo intenso sin dañar su pelo delicado y fino.",
+            beneficios: [
+                "Blancura inmaculada",
+                "Elimina manchas de lágrimas",
+                "Elimina manchas de orina",
+                "Brillo intenso",
+                "No daña pelo fino",
+                "Fórmula concentrada"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-Especial-para-Pelo-Blanco-1-Litro-p94401479",
+            uso: "Cada 2-3 semanas para mantener blancura"
+        },
+        {
+            producto: "Shampoo Cero Nudos 2en1",
+            prioridad: "Complementario",
+            porque: "Su pelo largo se enreda. Alternar con Pelo Blanco para facilitar cepillado y prevenir nudos.",
+            beneficios: [
+                "Desenreda pelo largo",
+                "Facilita cepillado",
+                "Mantiene sedosidad"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Bot%C3%A1nico-con-Acondicionador-2en1-Cero-Nudos-1-Litro-p94305799",
+            uso: "Alternar semanalmente con Pelo Blanco"
         }
+    }
+    }
     },
     tipsEspecificos: [
         "✅ Cepillado diario",
@@ -2090,7 +2713,7 @@ const BREEDS_DATABASE = [
         "✅ Baños frecuentes (pelaje blanco)"
     ],
     alertasCriticas: ["⚠️ Temblores (Shaker syndrome)"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", aseo: "Muy Alto" }
 },
 
@@ -2100,7 +2723,7 @@ const BREEDS_DATABASE = [
     categoria: "grandes",
     imagen: "🐕",
     tamaño: "Grandes",
-    origen: { pais: "Alemania" },
+    origen: { pais: "Alemania 🇩🇪" },
     pesoIdeal: { macho: "50-60 kg", hembra: "35-48 kg" },
     esperanzaVida: "8-10 años",
     temperamento: {
@@ -2109,6 +2732,40 @@ const BREEDS_DATABASE = [
         sociabilidad: { conHumanos: "Leal a familia", conNiños: "Buena con socialización", conExtraños: "Desconfiado" },
         adiestramiento: "Alto - Necesita entrenamiento firme"
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Displasia de cadera", "Problemas cardíacos", "Osteosarcoma (cáncer de huesos)", "Problemas oculares"],
     saludComun: ["Displasia de cadera", "Obesidad", "Hinchazón gástrica"],
     cuidadosBañoEstetica: {
@@ -2165,7 +2822,7 @@ const BREEDS_DATABASE = [
         "⚠️ Seguro de responsabilidad civil recomendado"
     ],
     alertasCriticas: ["🚨 Hinchazón abdominal = EMERGENCIA (torsión)", "⚠️ Cojera = Displasia o cáncer óseo"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", alimentacion: "Alta (come mucho)" }
 },
 
@@ -2175,7 +2832,7 @@ const BREEDS_DATABASE = [
     categoria: "grandes",
     imagen: "🥊",
     tamaño: "Grandes",
-    origen: { pais: "Alemania" },
+    origen: { pais: "Alemania 🇩🇪" },
     pesoIdeal: { macho: "30-32 kg", hembra: "25-27 kg" },
     esperanzaVida: "10-12 años",
     temperamento: {
@@ -2183,6 +2840,55 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Muy Alta",
         sociabilidad: { conHumanos: "Excelente", conNiños: "Excelente", conPerros: "Variable" }
     },
+        
+        
+    alimentacion: {
+        tipoAlimento: "Premium balanceado para su tamaño",
+        comidas: {
+            cachorro: "3-4 veces al día",
+            adulto: "2 veces al día",
+            senior: "2 veces al día (porciones ajustadas)"
+        },
+        alertas: [
+            "Control de peso",
+            "Agua fresca siempre",
+            "Evitar sobrealimentación"
+        ]
+    },
+
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Cáncer (alta incidencia)", "Problemas cardíacos", "Displasia de cadera", "Síndrome braquicéfalo"],
     saludComun: ["Cáncer", "Problemas cardíacos", "Alergias de piel", "Hinchazón gástrica"],
     cuidadosBañoEstetica: {
@@ -2253,7 +2959,7 @@ const BREEDS_DATABASE = [
         "✅ Chequeos regulares (alta incidencia cáncer)"
     ],
     alertasCriticas: ["🚨 Bultos o masas = VET inmediato", "🚨 Hinchazón abdominal = EMERGENCIA"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", veterinario: "Alto (problemas genéticos)" }
 },
 
@@ -2263,7 +2969,7 @@ const BREEDS_DATABASE = [
     categoria: "grandes",
     imagen: "🐕",
     tamaño: "Grandes",
-    origen: { pais: "Croacia" },
+    origen: { pais: "Croacia 🇭🇷" },
     pesoIdeal: { macho: "27-32 kg", hembra: "24-29 kg" },
     esperanzaVida: "11-13 años",
     temperamento: {
@@ -2271,6 +2977,40 @@ const BREEDS_DATABASE = [
         nivelEnergia: "Muy Alta",
         sociabilidad: { conHumanos: "Buena", conNiños: "Buena con supervisión", conPerros: "Buena" }
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Sordera (30% nacen sordos de uno o ambos oídos)", "Cálculos urinarios", "Displasia de cadera", "Alergias"],
     saludComun: ["Problemas urinarios", "Alergias de piel", "Sordera"],
     cuidadosBañoEstetica: {
@@ -2278,10 +3018,34 @@ const BREEDS_DATABASE = [
         cepillado: { frecuencia: { normal: "3-4 veces/semana (muda constante)" }},
         baño: { frecuencia: "Cada 4-6 semanas" },
         botanican: {
-            recomendado: "BotaniCan Hipoalergénico",
-            porque: "Ideal para su piel sensible a alergias.",
-            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594"
+    recomendaciones: [
+        {
+            producto: "Shampoo Verde Botánico 7en1",
+            prioridad: "Principal",
+            porque: "El Dálmata es extremadamente activo y atlético (necesita 2+ horas ejercicio diario). Requiere limpieza profunda que mantenga sus manchas definidas y su pelaje blanco brillante. El Verde limpia a fondo sin desvanecer el contraste blanco-negro característico.",
+            beneficios: [
+                "Limpieza profunda",
+                "Mantiene contraste blanco-negro",
+                "No desvanece manchas",
+                "Brillo intenso",
+                "Protección antiparasitaria",
+                "Ideal para perros muy activos"
+            ],
+            link: "https://botanican.ecwid.com/Shampoo-Verde-Bot%C3%A1nico-Uso-Normal-Repelente-Antihongos-y-M%C3%A1s-1-Litro-7-en-1-p94289594",
+            uso: "Cada 6-8 semanas"
         }
+    ],
+    
+    alertaParasitos: {
+        titulo: "⚠️ Dálmata = Perro ULTRA activo - Mucho tiempo afuera",
+        descripcion: "Los Dálmatas necesitan 2+ horas de ejercicio diario intenso. Mucho tiempo en exteriores = alta exposición a parásitos.",
+        recomendacion: {
+            producto: "Shampoo Verde Botánico 7en1 - YA RECOMENDADO",
+            porque: "El Verde ya incluye repelente de 14 días. Esencial para perros tan activos.",
+            protocolo: "Baño regular cada 6-8 semanas con Verde mantiene protección constante."
+        }
+    }
+    }
     },
     tipsEspecificos: [
         "✅ Ejercicio INTENSO diario (correr)",
@@ -2291,7 +3055,7 @@ const BREEDS_DATABASE = [
         "⚠️ NO apto para vida sedentaria"
     ],
     alertasCriticas: ["⚠️ Dificultad para orinar = VET urgente", "🚨 Sangre en orina = Cálculos"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", veterinario: "Medio-Alto" }
 },
 
@@ -2310,6 +3074,40 @@ const BREEDS_DATABASE = [
         sociabilidad: { conHumanos: "Leal a familia", conNiños: "Buena (puede 'pastorear' niños)", conPerros: "Buena" },
         adiestramiento: "Excelente - Raza MÁS inteligente"
     },
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: ["Displasia de cadera", "Epilepsia", "Anomalía del ojo del Collie (CEA)", "Sordera"],
     saludComun: ["Generalmente saludable", "Problemas de comportamiento si no se ejercita"],
     cuidadosBañoEstetica: {
@@ -2365,7 +3163,7 @@ const BREEDS_DATABASE = [
         "✅ Considerado el perro MÁS inteligente del mundo"
     ],
     alertasCriticas: ["⚠️ Comportamiento destructivo = Falta de ejercicio mental/físico", "🚨 Convulsiones = Epilepsia posible"],
-    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses" }},
+    saludPublica: { desparasitacion: { frecuencia: "Cada 3 meses", importancia: "Crítico para salud pública" }},
     costoMantenimiento: { nivel: "Alto", extras: "Alto (deportes caninos, juguetes mentales)" },
     noRecomendadoPara: ["Personas sedentarias", "Departamentos pequeños", "Dueños primerizos sin tiempo"]
 },
@@ -2404,6 +3202,40 @@ const BREEDS_DATABASE = [
         ]
     },
     
+        
+    etapasVida: {
+        cachorro: {
+            edad: "0-12 meses",
+            cuidados: [
+                "Socialización temprana crítica",
+                "3-4 comidas pequeñas al día",
+                "Vacunación completa obligatoria",
+                "Ejercicio moderado adaptado",
+                "Entrenamiento básico desde 2-3 meses"
+            ]
+        },
+        adulto: {
+            edad: "1-7 años",
+            cuidados: [
+                "Ejercicio diario adecuado",
+                "2 comidas balanceadas al día",
+                "Revisión veterinaria anual",
+                "Cepillado regular",
+                "Estimulación mental"
+            ]
+        },
+        senior: {
+            edad: "8+ años",
+            cuidados: [
+                "Ejercicio moderado",
+                "Chequeos cada 6 meses",
+                "Alimento senior",
+                "Suplementos articulaciones",
+                "Vigilar problemas de la raza"
+            ]
+        }
+    },
+
     problemasCongenitos: [
         "⭐ MENOR incidencia que razas puras (vigor híbrido)",
         "Pocos problemas genéticos por diversidad genética",
