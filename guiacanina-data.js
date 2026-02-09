@@ -1,8 +1,9 @@
 /**
- * GUIACANINA - BASE DE DATOS DE RAZAS
- * Información completa sobre 35 razas de perros
+ * GUÍACANINA - BASE DE DATOS DE RAZAS
+ * 35 razas completas
  */
 
+// Variable global - NO usa export porque se carga como script normal
 const BREEDS_DATABASE = [
 
 {
@@ -4642,13 +4643,6 @@ const BREEDS_DATABASE = [
         "✅ Son EXTREMADAMENTE leales y agradecidos"
     ],
     
-    alertasCriticas: [
-        "🚨 Parásitos severos (si rescatado) = Desparasitación urgente - VET",
-        "🚨 Desnutrición/deshidratación severa = VET URGENTE",
-        "🚨 Heridas infectadas = VET",
-        "🚨 Comportamiento agresivo por miedo = Profesional en comportamiento canino"
-    ],
-    
     ventajasDelCriollo: {
         titulo: "✅ VENTAJAS DEL PERRO CRIOLLO",
         beneficios: [
@@ -8596,6 +8590,7 @@ const BREEDS_DATABASE = [
 },
 
 
-];
+]; // Cierra el array
 
-export default BREEDS_DATABASE;
+// NO hay export - BREEDS_DATABASE es variable global
+console.log('✅ BREEDS_DATABASE cargado:', BREEDS_DATABASE.length, 'razas');
