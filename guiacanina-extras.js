@@ -127,8 +127,12 @@ const GUIA_SHAMPOOS = [
 ];
 
 // Render Estéticas
-function renderEsteticas() {
-    return `
+function showEsteticas() {
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.nav-btn')[2].classList.add('active');
+    
+    const mainView = document.getElementById('mainView');
+    mainView.innerHTML = `
         <div class="esteticas-view">
             <div class="esteticas-header">
                 <h2>🐕 Estéticas Caninas Recomendadas</h2>
@@ -176,8 +180,12 @@ function renderEsteticas() {
 }
 
 // Render Guía Shampoos
-function renderGuiaShampoos() {
-    return `
+function showGuiaShampoos() {
+    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
+    document.querySelectorAll('.nav-btn')[1].classList.add('active');
+    
+    const mainView = document.getElementById('mainView');
+    mainView.innerHTML = `
         <div class="guia-shampoos-view">
             <div class="guia-header">
                 <h2>🧴 Guía de Shampoos BotaniCan</h2>
@@ -280,3 +288,11 @@ https://guiacanina.vercel.app`;
         console.log('Error:', err);
     }
 }
+
+// Hacer funciones globales - ESTO ES CRÍTICO
+window.showGuiaShampoos = showGuiaShampoos;
+window.showEsteticas = showEsteticas;
+window.compartirEstetica = compartirEstetica;
+window.compartirShampoo = compartirShampoo;
+
+console.log('✅ Extras cargado - Shampoos y Estéticas disponibles');
