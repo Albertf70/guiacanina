@@ -1,9 +1,12 @@
-import BREEDS_DATABASE from './guiacanina-data.js';
-
 /**
  * GUÍACANINA - APLICACIÓN JAVASCRIPT
  * Gestión de la interfaz, búsqueda, filtros, favoritos, detalles de razas
  */
+
+// ========================================
+// IMPORT DE DATOS - ¡ESTO FALTABA!
+// ========================================
+import BREEDS_DATABASE from './guiacanina-data.js';
 
 // ========================================
 // VARIABLES GLOBALES
@@ -180,12 +183,19 @@ function createBreedCard(breed) {
 }
 
 function getCountryFlag(pais) {
-    if (pais.includes('🇲🇽') || pais.includes('México')) return '🇲🇽';
+    if (pais.includes('Mexico')) return '🇲🇽';
     if (pais.includes('China')) return '🇨🇳';
     if (pais.includes('Alemania')) return '🇩🇪';
     if (pais.includes('Rusia')) return '🇷🇺';
     if (pais.includes('Francia')) return '🇫🇷';
-    if (pais.includes('Inglaterra') || pais.includes('Reino Unido')) return '🇬🇧';
+    if (pais.includes('Inglaterra') || pais.includes('Reino Unido') || pais.includes('Escocia')) return '🇬🇧';
+    if (pais.includes('Estados Unidos')) return '🇺🇸';
+    if (pais.includes('Belgica')) return '🇧🇪';
+    if (pais.includes('Japon')) return '🇯🇵';
+    if (pais.includes('Suiza')) return '🇨🇭';
+    if (pais.includes('Canada')) return '🇨🇦';
+    if (pais.includes('Croacia')) return '🇭🇷';
+    if (pais.includes('Malta')) return '🇲🇹';
     return '🌍';
 }
 
@@ -555,7 +565,7 @@ function renderCuidadosBañoSection(breed) {
                 html += `<p><strong>Herramientas necesarias:</strong></p><ul>`;
                 cuidados.cepillado.herramientas.forEach(h => {
                     if (typeof h === 'object') {
-                        html += `<li><strong>${h.nombre}:</strong> ${h.funcion}${h.obligatorio ? ' (OBLIGATORIO)' : ''}</li>`;
+                        html += `<li><strong>${h.nombre || h.herramienta}:</strong> ${h.funcion}${h.obligatorio ? ' (OBLIGATORIO)' : ''}</li>`;
                     } else {
                         html += `<li>${h}</li>`;
                     }
@@ -682,7 +692,7 @@ function renderSaludPublicaSection(breed) {
             
             ${sp.desparasitacion ? `
                 <h3>💊 Desparasitación</h3>
-                <p><strong>Frecuencia adulto:</strong> ${sp.desparasitacion.adulto || 'Cada 3 meses'}</p>
+                <p><strong>Frecuencia:</strong> ${sp.desparasitacion.frecuencia || 'Cada 3 meses'}</p>
                 <p><strong>Importancia:</strong> ${sp.desparasitacion.importancia}</p>
             ` : ''}
         </div>
@@ -701,6 +711,7 @@ function renderCostoMantenimientoSection(breed) {
                 ${costo.veterinario ? `<li><strong>Veterinario:</strong> ${costo.veterinario}</li>` : ''}
                 ${costo.alimentacion ? `<li><strong>Alimentación:</strong> ${costo.alimentacion}</li>` : ''}
                 ${costo.aseo ? `<li><strong>Aseo:</strong> ${costo.aseo}</li>` : ''}
+                ${costo.grooming ? `<li><strong>Grooming:</strong> ${costo.grooming}</li>` : ''}
                 ${costo.medicamentos ? `<li><strong>Medicamentos:</strong> ${costo.medicamentos}</li>` : ''}
                 ${costo.extras ? `<li><strong>Extras:</strong> ${costo.extras}</li>` : ''}
             </ul>
@@ -894,7 +905,7 @@ function initializePWA() {
     // Detectar instalación
     window.addEventListener('appinstalled', () => {
         localStorage.setItem('petcare_installed', 'true');
-        console.log('✅ PetCare Pro instalado');
+        console.log('✅ GuíaCanina instalado');
     });
 }
 
@@ -902,7 +913,7 @@ function initializePWA() {
 // UTILIDADES
 // ========================================
 
-console.log('🐕 PetCare Pro cargado correctamente');
+console.log('🐕 GuíaCanina cargado correctamente');
 
 // ============================================
 // FUNCIÓN COMPARTIR
@@ -967,7 +978,6 @@ https://guiacanina.vercel.app`;
     }
 }
 
-
 // ============================================
 // NAVEGACIÓN
 // ============================================
@@ -976,29 +986,6 @@ function showHome() {
     // Recargar página completa
     location.reload();
 }
-
-function showGuiaShampoos() {
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.nav-btn')[1].classList.add('active');
-    document.getElementById('mainView').innerHTML = renderGuiaShampoos();
-}
-
-function showEsteticas() {
-    document.querySelectorAll('.nav-btn').forEach(btn => btn.classList.remove('active'));
-    document.querySelectorAll('.nav-btn')[2].classList.add('active');
-    document.getElementById('mainView').innerHTML = renderEsteticas();
-}
-
-// About modal
-document.addEventListener('DOMContentLoaded', () => {
-    const aboutLink = document.getElementById('aboutLink');
-    if (aboutLink) {
-        aboutLink.addEventListener('click', (e) => {
-            e.preventDefault();
-            document.getElementById('aboutModal').classList.remove('hidden');
-        });
-    }
-});
 
 function closeAbout() {
     document.getElementById('aboutModal').classList.add('hidden');
@@ -1009,7 +996,7 @@ function closeAbout() {
 // ============================================
 
 async function compartirApp() {
-    const texto = '🐕 *GuíaCanina* - Tu referencia completa para el cuidado de tu perro\n\n✅ 21 razas con información detallada\n✅ Recomendaciones BotaniCan Shampoo\n✅ Guía de productos por raza\n✅ Directorio de estéticas caninas\n\n📱 Descarga GRATIS:\nhttps://guiacanina.vercel.app';
+    const texto = '🐕 *GuíaCanina* - Tu referencia completa para el cuidado de tu perro\n\n✅ 35 razas con información detallada\n✅ Recomendaciones BotaniCan Shampoo\n✅ Guía de productos por raza\n\n📱 Descarga GRATIS:\nhttps://guiacanina.vercel.app';
 
     try {
         if (navigator.share) {
