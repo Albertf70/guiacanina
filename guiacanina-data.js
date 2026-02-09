@@ -4642,6 +4642,13 @@ const BREEDS_DATABASE = [
         "✅ Son EXTREMADAMENTE leales y agradecidos"
     ],
     
+    alertasCriticas: [
+        "🚨 Parásitos severos (si rescatado) = Desparasitación urgente - VET",
+        "🚨 Desnutrición/deshidratación severa = VET URGENTE",
+        "🚨 Heridas infectadas = VET",
+        "🚨 Comportamiento agresivo por miedo = Profesional en comportamiento canino"
+    ],
+    
     ventajasDelCriollo: {
         titulo: "✅ VENTAJAS DEL PERRO CRIOLLO",
         beneficios: [
