@@ -6,7 +6,6 @@
 // ========================================
 // IMPORT DE DATOS - ¡ESTO FALTABA!
 // ========================================
-import BREEDS_DATABASE from './guiacanina-data.js';
 
 // ========================================
 // VARIABLES GLOBALES
