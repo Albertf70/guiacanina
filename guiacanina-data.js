@@ -4992,7 +4992,7 @@ const BREEDS_DATABASE = [
     id: "calupoh",
     nombre: "Calupoh",
     nombresAlternativos: ["Perro Lobo Mexicano", "Mexican Wolfdog"],
-    categoria: "grandes",
+    categoria: "mexicanas",
     imagen: "🐺",
     tamaño: "Grandes",
     
