@@ -11,7 +11,7 @@ const BREEDS_DATABASE = [
     nombre: "Chihuahua",
     nombresAlternativos: ["Chi", "Chihuahueño"],
     categoria: "mexicanas",
-    imagen: "chihuahua.jpg",
+    imagen: "🐕",
     tamaño: "Pequeñas",
     
     origen: {
