@@ -155,7 +155,7 @@ function createBreedCard(breed) {
     return `
         <div class="breed-card" data-breed-id="${breed.id}">
             <div class="breed-card-image">
-                ${breed.imagen}
+                <img src="${breed.imagen}" alt="${breed.nombre}">
             </div>
             ${patrimonioMexicano}
             <div class="breed-card-content">
